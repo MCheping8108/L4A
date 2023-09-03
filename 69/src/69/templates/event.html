@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block history %}
+<div class="data-input">
+  <select class="month">
+    <option value="1" selected>1月</option>
+    <option value="2">2月</option>
+    <option value="3">3月</option>
+    <option value="4">4月</option>
+    <option value="5">5月</option>
+    <option value="6">6月</option>
+    <option value="7">7月</option>
+    <option value="8">8月</option>
+    <option value="9">9月</option>
+    <option value="10">10月</option>
+    <option value="11">11月</option>
+    <option value="12">12月</option>
+  </select>
+  <select class="day">
+    
+  </select>
+  <input type="button" value="查看" class="search">
+</div>
+<div class="history">
+  <div class="introduce">
+    <div class="side-right">
+      <div class="content event" style="width:900px;">
+        <div class="title">历史事件</div>
+        <div class="event-list">
+          {% for event in event_list %}
+            <a target="_blank"><span class="event-date">{{event['date']}}</span><span class="event-title">{{event['title']}}</span></a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block script %}
+<script type="text/javascript" src='/static/js/event.js'></script>
+{% endblock %}

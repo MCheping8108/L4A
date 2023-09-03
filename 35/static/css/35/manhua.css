@@ -1,0 +1,13 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+.header{width:1348px;height:679px;background: url(/static/images/35/manhua/manhua_01.png) no-repeat top center/cover;margin:auto;position:relative;}
+.content{width:1348px;height:210px;background: url(/static/images/35/manhua/manhua_02.png) no-repeat top center/cover;margin:auto;}
+.footer{width:1348px;height:250px;background: url(/static/images/35/manhua/manhua_03.png) no-repeat top center/cover;margin:auto;}
+.list-tab{width:200px;height:30px;position: absolute;bottom:30px;left:205px;}
+.list-tab span{float:left;height:30px;line-height:30px;padding: 0 18px;border-right: 1px solid #333;font-size: 14px;color: #333;}
+.list-tab span:last-child{border:none;}
+.list-tab .active{background: #333;font-weight: bold;color: #fff;}
+.list-tab span:hover{cursor: pointer;}
+.content .cartoon-list{width:1340px;height:700px;margin:auto;}
+.content .cartoon-item{width:360px;height:160px;float:left;margin-left:70px;position: relative;}
+.content .cartoon-item img{width:360px;}
+.content .cartoon-item .title{width:360px;height:30px;position:absolute;bottom:0;padding: 0 10px;font-weight: bold;line-height: 30px;background: #404040;font-size: 14px;color: #fff;}

@@ -1,0 +1,23 @@
+.header{min-width: 1200px;height: 41px;padding: 18px 0 15px 0;background: #fff;position: relative;font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;line-height: 1.5;box-shadow: 0 0 46px rgba(0,0,0,0.03);box-sizing: content-box;}
+.header-bar{width: 1200px;margin: 0 auto;}
+.header img{height:41px;}
+.hot-board{border:1px solid red;min-width: 1200px;height:550px;border-bottom-left-radius: 400px 100px;border-bottom-right-radius: 400px 100px;overflow: hidden;position: relative;background: url('/static/images/g.jpg');}
+.home-goods{width:1200px;margin:0 auto;}
+.h .title{font-size: 26px;color:#333;padding:27px 0 13px 0;font-weight: 400;}
+.b{height:auto;position: relative;width:1200px;}
+.b::after{content:'';display:block;clear: both;}
+.b .span-fl{float:left;width:232px;color:#3a3a3a;border-radius: 10px;width:230px;height:592px;}
+.b .span-fl img{width:100%;height:100%;border-radius: 10px;}
+.b .span-li{float:left;width:960px;height:597px;}
+.span-li .li-item{width:230px;height:290px;float:left;margin-left:8px;margin-top: 5px;background: #f9f9f9;border-radius: 10px;text-align: center;}
+.span-fl:hover,.span-li .li-item:hover{transform: none;box-shadow: 0px 12px 36px rgba(0,0,0,0.1);transition: all .2s linear 0s;}
+.li-item .grid-img{width:150px;height:150px;margin:35px auto 0;}
+.li-item .grid-img img{width:100%;height:100%;}
+.li-item .grid-title{width:210px;display: block;margin:0 auto;padding: 0;margin-top: 12px;height:21px;line-height: 21px;overflow:hidden;white-space: nowrap;font-size: 14px;font-weight:400;color:#3a3a3a;}
+.li-item .grid-desc{color:#777;line-height: 18px;padding:0 10px;margin:2px 20px 7px;font-size: 12px;font-weight:400;overflow:hidden;}
+.li-item .grid-price{color:#d0021b;line-height: 21px;margin-bottom: 0px;font-size: 14px;font-weight:400;overflow: hidden;}
+.category-list{position: absolute;top:38px;left:150px;height:440px;box-shadow: 0 0 46px rgba(0,0,0,0.03);background: rgba(255,255,255,0.95);border-radius: 10px;width:200px;overflow: hidden;}
+.zxnav{height:74px;width:200px;line-height: 74px;padding-left:30px;font-size: 16px;color:#848484;cursor: pointer;}
+.zxnav p{width:150px;height:48px;padding:12px 0 13px 0;margin:0;width:150px;border-bottom: 1px solid rgba(0,0,0,0.06);position:relative;line-height: 48px;text-align: left;box-sizing: content-box;}
+.zxnav p:hover{color:red;border-bottom-color: #fff;}
+.zxnav:hover{background-color:#fff;}

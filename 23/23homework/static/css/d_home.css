@@ -1,0 +1,5 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+.top{width:1348px;height:2220px;margin:auto;background: url(/static/images/dilidili/top.png) top center/cover;}
+.menu{width:1248px;height:307px;margin:auto;background: url(/static/images/dilidili/bg.jpg) center center/cover;background-attachment: fixed;}
+.bottom{width:1348px;height:725px;margin:auto;background: url(/static/images/dilidili/bottom.png) top center/cover;}
+.menu::after{content:'';display: block;width:100%;height:100%;background: url(/static/images/dilidili/menu.png) top center;opacity: 0.6;}

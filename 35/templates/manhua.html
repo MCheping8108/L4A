@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>动漫</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/static/css/35/manhua.css">
+</head>
+<body>
+  <div class="header">
+    <div class="list-tab">
+      <span data-type='1'>连载中</span>
+      <span data-type='2'>已完结</span>
+    </div>
+  </div>
+  <div class="content">
+    <div class="cartoon-list">
+      
+    </div>
+  </div>
+  <div class="footer"></div>
+</body>
+<script type="text/javascript" src="/static/js/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+  var span = document.querySelectorAll('.list-tab span');
+
+  window.onload = function(){
+    for(var i = 0;i<span.length;i++){
+      spanClick(i,span[i]);
+    }
+  }
+
+  /*
+   * @description 类别点击的方法
+   * @param index {Number} : 当前span的下标
+   * @param obj {Node} : 当前点击的span对象
+   */
+  function spanClick(index,obj){
+    obj.onclick = function(){
+      for(var i = 0;i<span.length;i++){
+        span[i].className = "";
+      }
+      this.className = "active";
+      var type = this.dataset.type;
+      getCartoon(type);
+    }
+  }
+
+  /*
+   * @description 获取漫画的方法
+   * @param type {Number} : 漫画的类型
+   */
+  function getCartoon(type){
+  	//在下方写你的代码：发送ajax-get请求，地址为/list,拼接请求参数type,调用showCartoon展示数据
+    
+  }
+
+  /*
+   * @description 展示漫画内容的方法
+   * @param data {Array} : 漫画内容的数据
+   */
+  function showCartoon(data){
+    var list = document.getElementsByClassName('cartoon-list')[0];
+    var str = "";
+    for (var i = 0;i<data.length;i++){
+      var template = 
+        '<div class="cartoon-item">'+
+          '<img src="/static/images/35/manhua/' + data[i]['image'] + '">'+
+          '<div class="title">' + data[i]['title'] + '</div>'+
+        '</div>';
+      str += template;
+    }
+    list.innerHTML = str;
+  }
+</script>
+</html>

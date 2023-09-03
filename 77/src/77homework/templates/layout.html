@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>童程商程</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/static/css/layout.css">
+    {% block stylesheet %} {% endblock %}
+</head>
+<body>
+<header class="shortcut">
+    <div class="topbar">
+        <div class="tmain">
+            <ul>
+                <li><a href="#" class="signin">请登录</a></li>
+                <li><a href="#" class="signup">注册</a></li>
+                <li class="cart-btn"><a href="/cart">购物车(<span id='cart-total'>0</span>)</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    {% block header%}{% endblock %}
+
+    {% block content%}{% endblock %}
+</div>
+
+<footer></footer>
+
+<div class="mask"></div>
+<div class="login">
+    <div class="close-btn login-close">x</div>
+    <div class="login-input">
+        <input type="text" class="username" placeholder="用户名"/>
+        <input type="password" class="password" placeholder="密码"/>
+        <input type="button" class="submit login-sub" value="登录"/>
+    </div>
+</div>
+<div class="register">
+    <div class="close-btn register-close">x</div>
+    <div class="register-input">
+        <input type="text" class="username" placeholder="用户名"/>
+        <input type="password" class="password" placeholder="密码"/>
+        <input type="password" class="repassword" placeholder="再次输入密码"/>
+        <input type="button" class="submit regist-sub" value="注册"/>
+    </div>
+</div>
+</body>
+
+<script src="/static/js/jquery/jquery-1.8.3.min.js"></script>
+<script src="/static/js/layout.js"></script>
+{% block script %}{% endblock %}
+</html>

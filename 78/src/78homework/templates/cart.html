@@ -1,0 +1,58 @@
+{% extends "layout.html" %}
+
+{% block stylesheet %}
+<link rel="stylesheet" type="text/css" href="/static/css/cart.css">
+{% endblock %}
+
+{% block content %}
+<div class="cart">
+    <div class="cart-title">
+        <span class="pro">商品</span>
+        <span class="pri">单价</span>
+        <span class="amount">数量</span>
+        <span class="total">小计</span>
+        <span class="h">操作</span>
+    </div>
+    <div class="cart-content">
+        {% for r in record %}
+        <div class="cart-item" data-id="{{r['_id']}}">
+            <img class="pro-img" src="/static/images/product/{{r['info']['img']}}">
+            <span class="pro-sub">{{r['info']['sub_title']}}</span>
+            <span class="pro-pri">¥ {{r['info']['price']}}</span>
+            <span class="amount">
+                <div class="p-stock">
+                    <div class="p-stock-area">
+                        <input type="number" class="p-stock-text" value="{{r['amount']}}"/>
+                        <p class="p-stock-button" data-id="{{r['_id']}}">
+                            <a href="#" onclick="decrease(this)">-</a>
+                            <a href="#" onclick="increase(this)">+</a>
+                        </p>
+                    </div>
+                </div>
+            </span>
+            <span class="total">¥ {{r['total_price']}}</span>
+            <span class="del" onclick="del_cart(this)">删除</span>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="cart-clear">
+        <div class="cart-tool">
+            <div class="cart-total-btn">
+                <a href="javascript:pay();">立即结算</a>
+            </div>
+            <div class="cart-total-price">
+                <p>
+                    <span class="tab">总计：</span>
+                    <span class="price">￥{{total}}</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="cart-total-fixed"></div>
+{% endblock %}
+
+{% block script %}
+<script src="/static/js/cart.js"></script>
+{% endblock %}

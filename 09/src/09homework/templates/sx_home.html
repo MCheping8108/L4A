@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{%block style%}
+<link rel="stylesheet" type="text/css" href="/static/css/sx.css">
+{% endblock %}
+
+{%block content%}
+<div class="content">
+	<h3>■ 12生肖 ■</h3>
+	<div class="sx">
+		<div class="star-item">
+			<!-- 从模版变量中取值，获取第1个生肖图片地址，填充img的src属性 -->
+			<a href="/sx/fortune?sx=shu"><img src="{{sx[0]['image']}}"></a>
+		</div>
+		<div class="star-item">
+			<!-- 从模版变量中取值，获取第2个生肖图片地址，填充img的src属性。第3-12生肖依次类推 -->
+			<a href="/sx/fortune?sx=niu"><img src="{{sx[1]['image']}}"></a>
+		</div>
+		<div class="star-item">
+			<a href="/sx/fortune?sx=hu"><img src="{{sx[2]['image']}}"></a>
+		</div>
+		<div class="star-item">
+			<a href="/sx/fortune?sx=tu"><img src="{{sx[3]['image']}}"></a>
+		</div>
+		<div class="star-item">
+			<a href="/sx/fortune?sx=long"><img src="{{sx[4]['image']}}"></a>
+		</div>
+		<div class="star-item">
+			<a href="/sx/fortune?sx=she"><img src="{{sx[5]['image']}}"></a>
+		</div>
+		<div class="star-item">
+			<a href="/sx/fortune?sx=ma"><img src="{{sx[6]['image']}}"></a>
+		</div>
+		<div class="star-item">
+			<a href="/sx/fortune?sx=yang"><img src="{{sx[7]['image']}}"></a>
+		</div>
+		<div class="star-item">
+			<a href="/sx/fortune?sx=hou"><img src="{{sx[8]['image']}}"></a>
+		</div>
+		<div class="star-item">
+			<a href="/sx/fortune?sx=ji"><img src="{{sx[9]['image']}}"></a>
+		</div>
+		<div class="star-item">
+			<a href="/sx/fortune?sx=gou"><img src="{{sx[10]['image']}}"></a>
+		</div>
+		<div class="star-item">
+			<a href="/sx/fortune?sx=zhu"><img src="{{sx[11]['image']}}"></a>
+		</div>
+	</div>
+</div>
+{%endblock%}

@@ -1,0 +1,69 @@
+<script type="text/javascript" src="../static/js/EffectItem.js"></script>
+<script type="text/javascript" src="../static/js/Effect.js"></script>
+{% extends "layout.html"%}
+
+{% block stylesheet %}
+<link rel="stylesheet" type="text/css" href="/static/css/chat.css">
+{% endblock %}
+
+{% block main_content %}
+<div class="abs cover contaniner">
+    <div class="abs cover pnl">
+        <div class="top pnl-head"></div>
+        <div class="abs cover pnl-body" id="pnlBody">
+            <div class="abs cover pnl-left">
+                <div class="abs cover pnl-msgs scroll" id="show">
+                    <div class="pnl-list" id="msgs">
+                        <div id="welcome" data-photo='{{photo}}' data-time='{{time}}'>欢迎 <b>{{name}}</b> 进入聊天室</div>
+                    </div>
+                    <div class="pnl-list hide" id="unreadLine">
+                        <div class="msg min time unread">未读消息</div>
+                    </div>
+                </div>
+                <div class="abs bottom pnl-text">
+                    <div class="abs top pnl-warn" id="pnlWarn">
+                        <div class="fl btns rel pnl-warn-free">
+                            <img id="emojiBtn"/>
+                        </div>
+                    </div>
+                    <div class="abs cover pnl-input">
+                        <textarea class="scroll" id="text" wrap="hard" placeholder="在此输入文字信息..."></textarea>
+                        <div class="abs atcom-pnl scroll hide" id="atcomPnl">
+                            <ul class="atcom" id="atcom"></ul>
+                        </div>
+                    </div>
+                    <div class="abs br pnl-btn" id="submit"
+                         style="background-color: rgb(32, 196, 202); color: rgb(255, 255, 255);" onclick="sendMsg()">发送
+                    </div>
+                    <div class="pnl-support" id="copyright"><a href="#"> Copyright © 童程童美</a></div>
+                </div>
+            </div>
+            <div class="abs right pnl-right">
+                <div class="slider-container hide"></div>
+                <div class="pnl-right-content">
+                    <div class="pnl-tabs">
+                        <div class="tab-btn active" id="hot-tab">常见问题</div>
+                        <div class="tab-btn" id="rel-tab">相关问题</div>
+                    </div>
+                    <div class="pnl-hot">
+                        <ul class="rel-list unselect" id="hots">
+                            <!-- <li class="rel-item">这是一个问题，这是一个问题？</li> -->
+                        </ul>
+                    </div>
+                    <div class="pnl-rel" style="display: none;">
+                        <ul class="rel-list unselect" id="rels">
+                            <!-- <li class="rel-item">这是一个问题，这是一个问题？</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div></div>
+{% endblock %}
+
+{% block script %}
+<script type="text/javascript" src="/static/js/chat.js"></script>
+<script type="text/javascript" src="/static/js/chat_ajax.js"></script>
+{% endblock %}

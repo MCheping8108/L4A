@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>使命召唤</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="/static/css/callduty.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="map">
+				地图简介 >>
+			</div>
+			<div class="map_inf">
+				<div class="title">
+					地图简介
+				</div>
+				<div class="content"></div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="/static/js/jquery/jquery.min.js"></script>
+	<script type="text/javascript">
+		// 请在下方写你的代码:获取class为map的元素
+
+		//在map点击事件中发送ajax请求/map，使用showMapInfo()方法展示响应内容
+
+
+		/*
+		 预留方法，地图信息展示
+		 {param:data} 参数 data 用于在页面上展示的数据
+		 */
+		function showMapInfo(data) {
+			map.style.display = "none";
+			var inf = document.getElementsByClassName('map_inf')[0];
+			inf.style.display = "block";
+			document.getElementsByClassName('content')[0].innerHTML = data;
+		}
+
+	</script>
+</html>

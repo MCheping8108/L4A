@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+
+{% block stylesheet %}
+<link rel="stylesheet" type="text/css" href="/static/css/detail.css">
+{% endblock %}
+
+{% block content %}
+<div class="header">
+  <div class="header-bar">
+    <img src="/static/images/vmall.png">
+  </div>
+</div>
+<div class="main">
+    <div class="pro-list">
+        {% for pro in products %}
+        <div class="pro-item">
+            <div class="panel">
+                <p class="p-img">
+                    <img src="/static/images/product/{{pro['img']}}"/>
+                </p>
+                <p class="p-name">{{pro['name']}}</p>
+                <p class="p-price">{{pro['price']}}</p>
+                <div class="p-button">
+                    <table colspan="0" border="0" rowspan="0">
+                        <tbody>
+                        <tr>
+                            <td>
+                                <a href="javascript:void(0);" class="button-cart" data-id="{{pro['_id']}}">
+                                    <span>选购</span>
+                                </a>
+                            </td>
+                            <td>
+                                <span class="button-score">{{pro['evaluate']}}</span>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}
+
+{% block script %}
+<script src="/static/js/detail.js"></script>
+{% endblock %}

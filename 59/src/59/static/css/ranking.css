@@ -1,0 +1,33 @@
+.main-con{display: flex;justify-content: space-between;align-items: flex-start;margin-top: 38px;}
+.con-l{overflow: hidden;width: 18.85%;min-width: 210px;background: #fff;box-shadow: 0 0 20px 0 rgba(65,67,70,.05);position:relative;}
+.tabs{margin: 20px 9.09% 14px;justify-content: space-between;font-size: 16px;font-weight: 300;padding-bottom: 13px;border-bottom: 1px solid #f2f2f2;display: flex;align-items: center;}
+.tabs a{position:relative;z-index: 2;height: 22px;line-height: 22px;cursor: pointer;font-size: 16px;margin:0;padding:0;}
+.tab-con{padding-bottom: 14px;}
+.tab-con li{height: 80px;padding: 0 9.09%;list-style: none;}
+.flex-c{display: flex;align-items: center;}
+.tab-con li.active{background: #f2f2f2;}
+.tab-con li img{flex-shrink: 0;width: 60px;height: 60px;margin-right: 12px;cursor: pointer;}
+.tab-con li .item-info{flex: 1;}
+.tab-con li .item-info p{height: 20px;line-height: 20px;font-weight: 600;cursor: pointer;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;padding-right: 5%;}
+
+.con-r{position: relative;width: 76.14%;z-index: 10;}
+.r-title,.r-updatetime{vertical-align: baseline;}
+.r-title{display: inline-block;margin-top: 14px;height: 53px;line-height: 53px;font-size: 38px;font-weight: 600;}
+.r-updatetime{height: 20px;line-height: 20px;margin-left: 10px;color: #999;}
+.list-head{height: 46px;line-height: 46px;background: #fafafa;color: #999;margin-top:20px;}
+.head-num{width: 22%;flex-shrink: 0;padding-left: 2.81%;min-width: 180px;}
+.head-name{width: 27.83%;}
+.head-artist{width: 17.82%;}
+.head-album{flex: 1;}
+.head-time{width: 6.56%;}
+.song-item{height: 70px;line-height: 22px;color: #666;}
+.song-item:hover{background: #f5f5f5;}
+.song-item .song-rank{width: 22%;flex-shrink: 0;    position: relative;padding-left: 3.18%;min-width: 180px;padding-right: 20px;}
+.song-item .song-rank .rank-num{flex-shrink: 0;width: 20px;height: 33px;color: #333;line-height: 33px;text-align: center;font-weight: 700;}
+.song-item .song-rank .status{width: 50%;min-width: 70px;padding: 0 11% 0 14%;font-size: 12px;}
+.song-item .song-rank .cover{flex-shrink: 0;width: 54px;height: 54px;}
+.song-item .song-name{width: 27.83%;padding-right: 2.43%;color: #333;cursor: pointer;}
+.song-item .song-name .name{flex-shrink: 1;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.song-item .song-artist{width: 17.82%;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;padding-right: 1%;white-space: nowrap;}
+.song-item .song-album{white-space: nowrap;flex: 1;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.song-item .song-time{width: 6.56%;padding-right: 3.93%;}

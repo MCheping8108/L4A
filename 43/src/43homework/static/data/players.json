@@ -1,0 +1,3496 @@
+{
+  "RECORDS": [
+    {
+      "ranking": 1,
+      "player": "Stephen Curry",
+      "team": "GSW",
+      "salary": "$37,457,154 "
+    },
+    {
+      "ranking": 2,
+      "player": "Chris Paul",
+      "team": "HOU",
+      "salary": "$35,654,150 "
+    },
+    {
+      "ranking": 3,
+      "player": "Russell Westbrook",
+      "team": "OKC",
+      "salary": "$35,654,150 "
+    },
+    {
+      "ranking": 4,
+      "player": "LeBron James",
+      "team": "LAL",
+      "salary": "$35,654,150 "
+    },
+    {
+      "ranking": 5,
+      "player": "Blake Griffin",
+      "team": "DET",
+      "salary": "$32,088,932 "
+    },
+    {
+      "ranking": 6,
+      "player": "Gordon Hayward",
+      "team": "BOS",
+      "salary": "$31,214,295 "
+    },
+    {
+      "ranking": 7,
+      "player": "Kyle Lowry",
+      "team": "TOR",
+      "salary": "$31,200,000 "
+    },
+    {
+      "ranking": 8,
+      "player": "Paul George",
+      "team": "OKC",
+      "salary": "$30,560,700 "
+    },
+    {
+      "ranking": 9,
+      "player": "Mike Conley",
+      "team": "MEM",
+      "salary": "$30,521,116 "
+    },
+    {
+      "ranking": 10,
+      "player": "James Harden",
+      "team": "HOU",
+      "salary": "$30,431,854 "
+    },
+    {
+      "ranking": 11,
+      "player": "Kevin Durant",
+      "team": "GSW",
+      "salary": "$30,000,000 "
+    },
+    {
+      "ranking": 12,
+      "player": "Paul Millsap",
+      "team": "DEN",
+      "salary": "$29,730,769 "
+    },
+    {
+      "ranking": 13,
+      "player": "Al Horford",
+      "team": "BOS",
+      "salary": "$28,928,710 "
+    },
+    {
+      "ranking": 14,
+      "player": "Damian Lillard",
+      "team": "POR",
+      "salary": "$27,977,689 "
+    },
+    {
+      "ranking": 15,
+      "player": "DeMar DeRozan",
+      "team": "SAS",
+      "salary": "$27,739,975 "
+    },
+    {
+      "ranking": 16,
+      "player": "Chris Bosh",
+      "team": "MIA",
+      "salary": "$26,837,720 "
+    },
+    {
+      "ranking": 17,
+      "player": "Otto Porter",
+      "team": "CHI",
+      "salary": "$26,011,913 "
+    },
+    {
+      "ranking": 18,
+      "player": "Jrue Holiday",
+      "team": "NOP",
+      "salary": "$25,976,111 "
+    },
+    {
+      "ranking": 19,
+      "player": "CJ McCollum",
+      "team": "POR",
+      "salary": "$25,759,766 "
+    },
+    {
+      "ranking": 20,
+      "player": "Carmelo Anthony",
+      "team": "ATL",
+      "salary": "$25,534,253 "
+    },
+    {
+      "ranking": 21,
+      "player": "Andrew Wiggins",
+      "team": "MIN",
+      "salary": "$25,467,250 "
+    },
+    {
+      "ranking": 22,
+      "player": "Joel Embiid",
+      "team": "PHI",
+      "salary": "$25,467,250 "
+    },
+    {
+      "ranking": 23,
+      "player": "Bradley Beal",
+      "team": "WAS",
+      "salary": "$25,434,263 "
+    },
+    {
+      "ranking": 24,
+      "player": "Anthony Davis",
+      "team": "NOP",
+      "salary": "$25,434,263 "
+    },
+    {
+      "ranking": 25,
+      "player": "Andre Drummond",
+      "team": "DET",
+      "salary": "$25,434,263 "
+    },
+    {
+      "ranking": 26,
+      "player": "Hassan Whiteside",
+      "team": "MIA",
+      "salary": "$25,434,263 "
+    },
+    {
+      "ranking": 27,
+      "player": "Nikola Joki?",
+      "team": "DEN",
+      "salary": "$24,605,181 "
+    },
+    {
+      "ranking": 28,
+      "player": "Steven Adams",
+      "team": "OKC",
+      "salary": "$24,157,304 "
+    },
+    {
+      "ranking": 29,
+      "player": "Giannis Antetokounmpo",
+      "team": "MIL",
+      "salary": "$24,157,304 "
+    },
+    {
+      "ranking": 30,
+      "player": "Kevin Love",
+      "team": "CLE",
+      "salary": "$24,119,025 "
+    },
+    {
+      "ranking": 31,
+      "player": "Marc Gasol",
+      "team": "TOR",
+      "salary": "$24,119,025 "
+    },
+    {
+      "ranking": 32,
+      "player": "Chandler Parsons",
+      "team": "MEM",
+      "salary": "$24,107,258 "
+    },
+    {
+      "ranking": 33,
+      "player": "Harrison Barnes",
+      "team": "SAC",
+      "salary": "$24,107,258 "
+    },
+    {
+      "ranking": 34,
+      "player": "Nicolas Batum",
+      "team": "CHO",
+      "salary": "$24,000,000 "
+    },
+    {
+      "ranking": 35,
+      "player": "Rudy Gobert",
+      "team": "UTA",
+      "salary": "$23,241,573 "
+    },
+    {
+      "ranking": 36,
+      "player": "Kawhi Leonard",
+      "team": "TOR",
+      "salary": "$23,114,067 "
+    },
+    {
+      "ranking": 37,
+      "player": "DeAndre Jordan",
+      "team": "NYK",
+      "salary": "$22,900,000 "
+    },
+    {
+      "ranking": 38,
+      "player": "LaMarcus Aldridge",
+      "team": "SAS",
+      "salary": "$22,347,015 "
+    },
+    {
+      "ranking": 39,
+      "player": "Serge Ibaka",
+      "team": "TOR",
+      "salary": "$21,666,667 "
+    },
+    {
+      "ranking": 40,
+      "player": "Aaron Gordon",
+      "team": "ORL",
+      "salary": "$21,590,909 "
+    },
+    {
+      "ranking": 41,
+      "player": "Danilo Gallinari",
+      "team": "LAC",
+      "salary": "$21,587,579 "
+    },
+    {
+      "ranking": 42,
+      "player": "Victor Oladipo",
+      "team": "IND",
+      "salary": "$21,000,000 "
+    },
+    {
+      "ranking": 43,
+      "player": "Jimmy Butler",
+      "team": "PHI",
+      "salary": "$20,445,779 "
+    },
+    {
+      "ranking": 44,
+      "player": "Ryan Anderson",
+      "team": "MIA",
+      "salary": "$20,421,546 "
+    },
+    {
+      "ranking": 45,
+      "player": "Kyrie Irving",
+      "team": "BOS",
+      "salary": "$20,099,189 "
+    },
+    {
+      "ranking": 46,
+      "player": "Jabari Parker",
+      "team": "WAS",
+      "salary": "$20,000,000 "
+    },
+    {
+      "ranking": 47,
+      "player": "Zach LaVine",
+      "team": "CHI",
+      "salary": "$19,500,000 "
+    },
+    {
+      "ranking": 48,
+      "player": "Tyler Johnson",
+      "team": "PHO",
+      "salary": "$19,245,370 "
+    },
+    {
+      "ranking": 49,
+      "player": "John Wall",
+      "team": "WAS",
+      "salary": "$19,169,800 "
+    },
+    {
+      "ranking": 50,
+      "player": "Jeff Teague",
+      "team": "MIN",
+      "salary": "$19,000,000 "
+    },
+    {
+      "ranking": 51,
+      "player": "George Hill",
+      "team": "MIL",
+      "salary": "$19,000,000 "
+    },
+    {
+      "ranking": 52,
+      "player": "Klay Thompson",
+      "team": "GSW",
+      "salary": "$18,988,725 "
+    },
+    {
+      "ranking": 53,
+      "player": "Dwight Howard",
+      "team": "BRK",
+      "salary": "$18,919,725 "
+    },
+    {
+      "ranking": 54,
+      "player": "Wesley Matthews",
+      "team": "NYK",
+      "salary": "$18,622,514 "
+    },
+    {
+      "ranking": 55,
+      "player": "Enes Kanter",
+      "team": "NYK",
+      "salary": "$18,622,514 "
+    },
+    {
+      "ranking": 56,
+      "player": "Joakim Noah",
+      "team": "NYK",
+      "salary": "$18,530,000 "
+    },
+    {
+      "ranking": 57,
+      "player": "Allen Crabbe",
+      "team": "BRK",
+      "salary": "$18,500,000 "
+    },
+    {
+      "ranking": 58,
+      "player": "Goran Dragi?",
+      "team": "MIA",
+      "salary": "$18,109,175 "
+    },
+    {
+      "ranking": 59,
+      "player": "Kent Bazemore",
+      "team": "ATL",
+      "salary": "$18,089,887 "
+    },
+    {
+      "ranking": 60,
+      "player": "Evan Turner",
+      "team": "POR",
+      "salary": "$17,868,852 "
+    },
+    {
+      "ranking": 61,
+      "player": "Draymond Green",
+      "team": "GSW",
+      "salary": "$17,469,565 "
+    },
+    {
+      "ranking": 62,
+      "player": "Tristan Thompson",
+      "team": "CLE",
+      "salary": "$17,469,565 "
+    },
+    {
+      "ranking": 63,
+      "player": "Tim Hardaway",
+      "team": "DAL",
+      "salary": "$17,325,000 "
+    },
+    {
+      "ranking": 64,
+      "player": "Reggie Jackson",
+      "team": "DET",
+      "salary": "$17,043,478 "
+    },
+    {
+      "ranking": 65,
+      "player": "Evan Fournier",
+      "team": "ORL",
+      "salary": "$17,000,000 "
+    },
+    {
+      "ranking": 66,
+      "player": "Bismack Biyombo",
+      "team": "CHO",
+      "salary": "$17,000,000 "
+    },
+    {
+      "ranking": 67,
+      "player": "Derrick Favors",
+      "team": "UTA",
+      "salary": "$16,900,000 "
+    },
+    {
+      "ranking": 68,
+      "player": "Jonas Valan?iūnas",
+      "team": "MEM",
+      "salary": "$16,539,326 "
+    },
+    {
+      "ranking": 69,
+      "player": "Gary Harris",
+      "team": "DEN",
+      "salary": "$16,517,857 "
+    },
+    {
+      "ranking": 70,
+      "player": "Andre Iguodala",
+      "team": "GSW",
+      "salary": "$16,000,000 "
+    },
+    {
+      "ranking": 71,
+      "player": "Timofey Mozgov",
+      "team": "ORL",
+      "salary": "$16,000,000 "
+    },
+    {
+      "ranking": 72,
+      "player": "Ian Mahinmi",
+      "team": "WAS",
+      "salary": "$15,944,154 "
+    },
+    {
+      "ranking": 73,
+      "player": "Dennis Schr?der",
+      "team": "OKC",
+      "salary": "$15,500,000 "
+    },
+    {
+      "ranking": 74,
+      "player": "DeMarre Carroll",
+      "team": "BRK",
+      "salary": "$15,400,000 "
+    },
+    {
+      "ranking": 75,
+      "player": "Clint Capela",
+      "team": "HOU",
+      "salary": "$15,293,104 "
+    },
+    {
+      "ranking": 76,
+      "player": "Gorgui Dieng",
+      "team": "MIN",
+      "salary": "$15,170,787 "
+    },
+    {
+      "ranking": 77,
+      "player": "Pau Gasol",
+      "team": "SAS",
+      "salary": "$15,100,000 "
+    },
+    {
+      "ranking": 78,
+      "player": "Eric Bledsoe",
+      "team": "MIL",
+      "salary": "$15,000,000 "
+    },
+    {
+      "ranking": 79,
+      "player": "Trevor Ariza",
+      "team": "WAS",
+      "salary": "$15,000,000 "
+    },
+    {
+      "ranking": 80,
+      "player": "Ricky Rubio",
+      "team": "UTA",
+      "salary": "$14,975,000 "
+    },
+    {
+      "ranking": 81,
+      "player": "Tobias Harris",
+      "team": "PHI",
+      "salary": "$14,800,000 "
+    },
+    {
+      "ranking": 82,
+      "player": "J.R. Smith",
+      "team": "CLE",
+      "salary": "$14,720,000 "
+    },
+    {
+      "ranking": 83,
+      "player": "James Johnson",
+      "team": "MIA",
+      "salary": "$14,651,700 "
+    },
+    {
+      "ranking": 84,
+      "player": "Brandon Knight",
+      "team": "CLE",
+      "salary": "$14,631,250 "
+    },
+    {
+      "ranking": 85,
+      "player": "Robin Lopez",
+      "team": "CHI",
+      "salary": "$14,357,750 "
+    },
+    {
+      "ranking": 86,
+      "player": "Luol Deng",
+      "team": "LAL",
+      "salary": "$14,354,067 "
+    },
+    {
+      "ranking": 87,
+      "player": "Marvin Williams",
+      "team": "CHO",
+      "salary": "$14,087,500 "
+    },
+    {
+      "ranking": 88,
+      "player": "Taj Gibson",
+      "team": "MIN",
+      "salary": "$14,000,000 "
+    },
+    {
+      "ranking": 89,
+      "player": "Jeremy Lin",
+      "team": "ATL",
+      "salary": "$13,768,421 "
+    },
+    {
+      "ranking": 90,
+      "player": "Thaddeus Young",
+      "team": "IND",
+      "salary": "$13,764,045 "
+    },
+    {
+      "ranking": 91,
+      "player": "Kenneth Faried",
+      "team": "BRK",
+      "salary": "$13,764,045 "
+    },
+    {
+      "ranking": 92,
+      "player": "Tyson Chandler",
+      "team": "PHO",
+      "salary": "$13,585,000 "
+    },
+    {
+      "ranking": 93,
+      "player": "Marcin Gortat",
+      "team": "LAC",
+      "salary": "$13,565,218 "
+    },
+    {
+      "ranking": 94,
+      "player": "Cody Zeller",
+      "team": "CHO",
+      "salary": "$13,528,090 "
+    },
+    {
+      "ranking": 95,
+      "player": "Eric Gordon",
+      "team": "HOU",
+      "salary": "$13,500,375 "
+    },
+    {
+      "ranking": 96,
+      "player": "Joe Ingles",
+      "team": "UTA",
+      "salary": "$13,045,455 "
+    },
+    {
+      "ranking": 97,
+      "player": "Michael Kidd-Gilchrist",
+      "team": "CHO",
+      "salary": "$13,000,000 "
+    },
+    {
+      "ranking": 98,
+      "player": "Khris Middleton",
+      "team": "MIL",
+      "salary": "$13,000,000 "
+    },
+    {
+      "ranking": 99,
+      "player": "Mason Plumlee",
+      "team": "DEN",
+      "salary": "$12,917,808 "
+    },
+    {
+      "ranking": 100,
+      "player": "Wilson Chandler",
+      "team": "LAC",
+      "salary": "$12,800,562 "
+    },
+    {
+      "ranking": 101,
+      "player": "Nikola Vu?evi?",
+      "team": "ORL",
+      "salary": "$12,750,000 "
+    },
+    {
+      "ranking": 102,
+      "player": "Jordan Clarkson",
+      "team": "CLE",
+      "salary": "$12,500,000 "
+    },
+    {
+      "ranking": 103,
+      "player": "Miles Plumlee",
+      "team": "ATL",
+      "salary": "$12,500,000 "
+    },
+    {
+      "ranking": 104,
+      "player": "Nikola Miroti?",
+      "team": "MIL",
+      "salary": "$12,500,000 "
+    },
+    {
+      "ranking": 105,
+      "player": "Tyreke Evans",
+      "team": "IND",
+      "salary": "$12,400,000 "
+    },
+    {
+      "ranking": 106,
+      "player": "Courtney Lee",
+      "team": "DAL",
+      "salary": "$12,253,780 "
+    },
+    {
+      "ranking": 107,
+      "player": "Solomon Hill",
+      "team": "NOP",
+      "salary": "$12,252,928 "
+    },
+    {
+      "ranking": 108,
+      "player": "J.J. Redick",
+      "team": "PHI",
+      "salary": "$12,250,000 "
+    },
+    {
+      "ranking": 109,
+      "player": "Kelly Olynyk",
+      "team": "MIA",
+      "salary": "$12,137,527 "
+    },
+    {
+      "ranking": 110,
+      "player": "Avery Bradley",
+      "team": "MEM",
+      "salary": "$12,000,000 "
+    },
+    {
+      "ranking": 111,
+      "player": "Austin Rivers",
+      "team": "PHO",
+      "salary": "$12,000,000 "
+    },
+    {
+      "ranking": 112,
+      "player": "Kentavious Caldwell-Pope",
+      "team": "LAL",
+      "salary": "$12,000,000 "
+    },
+    {
+      "ranking": 113,
+      "player": "Kemba Walker",
+      "team": "CHO",
+      "salary": "$12,000,000 "
+    },
+    {
+      "ranking": 114,
+      "player": "Will Barton",
+      "team": "DEN",
+      "salary": "$11,830,358 "
+    },
+    {
+      "ranking": 115,
+      "player": "T.J. Warren",
+      "team": "PHO",
+      "salary": "$11,750,000 "
+    },
+    {
+      "ranking": 116,
+      "player": "Zach Randolph",
+      "team": "DAL",
+      "salary": "$11,692,308 "
+    },
+    {
+      "ranking": 117,
+      "player": "Marcus Smart",
+      "team": "BOS",
+      "salary": "$11,660,716 "
+    },
+    {
+      "ranking": 118,
+      "player": "Patty Mills",
+      "team": "SAS",
+      "salary": "$11,571,429 "
+    },
+    {
+      "ranking": 119,
+      "player": "Dion Waiters",
+      "team": "MIA",
+      "salary": "$11,550,000 "
+    },
+    {
+      "ranking": 120,
+      "player": "Alec Burks",
+      "team": "SAC",
+      "salary": "$11,536,515 "
+    },
+    {
+      "ranking": 121,
+      "player": "John Henson",
+      "team": "CLE",
+      "salary": "$11,327,466 "
+    },
+    {
+      "ranking": 122,
+      "player": "?mer A??k",
+      "team": "CHI",
+      "salary": "$11,286,516 "
+    },
+    {
+      "ranking": 123,
+      "player": "Jusuf Nurki?",
+      "team": "POR",
+      "salary": "$11,111,111 "
+    },
+    {
+      "ranking": 124,
+      "player": "Iman Shumpert",
+      "team": "HOU",
+      "salary": "$11,011,234 "
+    },
+    {
+      "ranking": 125,
+      "player": "Maurice Harkless",
+      "team": "POR",
+      "salary": "$10,837,079 "
+    },
+    {
+      "ranking": 126,
+      "player": "Tony Snell",
+      "team": "MIL",
+      "salary": "$10,607,143 "
+    },
+    {
+      "ranking": 127,
+      "player": "Meyers Leonard",
+      "team": "POR",
+      "salary": "$10,595,506 "
+    },
+    {
+      "ranking": 128,
+      "player": "Terrence Ross",
+      "team": "ORL",
+      "salary": "$10,500,000 "
+    },
+    {
+      "ranking": 129,
+      "player": "Bojan Bogdanovi?",
+      "team": "IND",
+      "salary": "$10,500,000 "
+    },
+    {
+      "ranking": 130,
+      "player": "Robert Covington",
+      "team": "MIN",
+      "salary": "$10,464,092 "
+    },
+    {
+      "ranking": 131,
+      "player": "Rudy Gay",
+      "team": "SAS",
+      "salary": "$10,087,200 "
+    },
+    {
+      "ranking": 132,
+      "player": "Jon Leuer",
+      "team": "DET",
+      "salary": "$10,002,681 "
+    },
+    {
+      "ranking": 133,
+      "player": "Andre Roberson",
+      "team": "OKC",
+      "salary": "$10,000,000 "
+    },
+    {
+      "ranking": 134,
+      "player": "Danny Green",
+      "team": "TOR",
+      "salary": "$10,000,000 "
+    },
+    {
+      "ranking": 135,
+      "player": "Darren Collison",
+      "team": "IND",
+      "salary": "$10,000,000 "
+    },
+    {
+      "ranking": 136,
+      "player": "Dwight Powell",
+      "team": "DAL",
+      "salary": "$9,631,250 "
+    },
+    {
+      "ranking": 137,
+      "player": "Matthew Dellavedova",
+      "team": "CLE",
+      "salary": "$9,607,500 "
+    },
+    {
+      "ranking": 138,
+      "player": "Dante Exum",
+      "team": "UTA",
+      "salary": "$9,600,000 "
+    },
+    {
+      "ranking": 139,
+      "player": "Jared Dudley",
+      "team": "BRK",
+      "salary": "$9,530,000 "
+    },
+    {
+      "ranking": 140,
+      "player": "Norman Powell",
+      "team": "TOR",
+      "salary": "$9,367,200 "
+    },
+    {
+      "ranking": 141,
+      "player": "Josh Richardson",
+      "team": "MIA",
+      "salary": "$9,367,200 "
+    },
+    {
+      "ranking": 142,
+      "player": "Bogdan Bogdanovi?",
+      "team": "SAC",
+      "salary": "$9,000,000 "
+    },
+    {
+      "ranking": 143,
+      "player": "Rajon Rondo",
+      "team": "LAL",
+      "salary": "$9,000,000 "
+    },
+    {
+      "ranking": 144,
+      "player": "E'Twaun Moore",
+      "team": "NOP",
+      "salary": "$8,808,685 "
+    },
+    {
+      "ranking": 145,
+      "player": "Kosta Koufos",
+      "team": "SAC",
+      "salary": "$8,739,500 "
+    },
+    {
+      "ranking": 146,
+      "player": "Jerami Grant",
+      "team": "OKC",
+      "salary": "$8,653,847 "
+    },
+    {
+      "ranking": 147,
+      "player": "Fred VanVleet",
+      "team": "TOR",
+      "salary": "$8,653,847 "
+    },
+    {
+      "ranking": 148,
+      "player": "Kyle Anderson",
+      "team": "MEM",
+      "salary": "$8,641,000 "
+    },
+    {
+      "ranking": 149,
+      "player": "Julius Randle",
+      "team": "NOP",
+      "salary": "$8,641,000 "
+    },
+    {
+      "ranking": 150,
+      "player": "Markieff Morris",
+      "team": "NOP",
+      "salary": "$8,600,000 "
+    },
+    {
+      "ranking": 151,
+      "player": "Jerryd Bayless",
+      "team": "MIN",
+      "salary": "$8,575,916 "
+    },
+    {
+      "ranking": 152,
+      "player": "Cristiano Felício",
+      "team": "CHI",
+      "salary": "$8,470,980 "
+    },
+    {
+      "ranking": 153,
+      "player": "Markelle Fultz",
+      "team": "ORL",
+      "salary": "$8,339,880 "
+    },
+    {
+      "ranking": 154,
+      "player": "C.J. Miles",
+      "team": "MEM",
+      "salary": "$8,333,333 "
+    },
+    {
+      "ranking": 155,
+      "player": "Joe Harris",
+      "team": "BRK",
+      "salary": "$8,333,333 "
+    },
+    {
+      "ranking": 156,
+      "player": "Shaun Livingston",
+      "team": "GSW",
+      "salary": "$8,307,692 "
+    },
+    {
+      "ranking": 157,
+      "player": "Deandre Ayton",
+      "team": "PHO",
+      "salary": "$8,165,160 "
+    },
+    {
+      "ranking": 158,
+      "player": "Lou Williams",
+      "team": "LAC",
+      "salary": "$8,000,000 "
+    },
+    {
+      "ranking": 159,
+      "player": "Garrett Temple",
+      "team": "LAC",
+      "salary": "$8,000,000 "
+    },
+    {
+      "ranking": 160,
+      "player": "P.J. Tucker",
+      "team": "HOU",
+      "salary": "$7,969,537 "
+    },
+    {
+      "ranking": 161,
+      "player": "Cory Joseph",
+      "team": "IND",
+      "salary": "$7,945,000 "
+    },
+    {
+      "ranking": 162,
+      "player": "JaMychal Green",
+      "team": "LAC",
+      "salary": "$7,866,667 "
+    },
+    {
+      "ranking": 163,
+      "player": "Karl-Anthony Towns",
+      "team": "MIN",
+      "salary": "$7,839,435 "
+    },
+    {
+      "ranking": 164,
+      "player": "Kyle Korver",
+      "team": "UTA",
+      "salary": "$7,560,000 "
+    },
+    {
+      "ranking": 165,
+      "player": "Jeremy Lamb",
+      "team": "CHO",
+      "salary": "$7,488,372 "
+    },
+    {
+      "ranking": 166,
+      "player": "Darrell Arthur",
+      "team": "PHO",
+      "salary": "$7,464,912 "
+    },
+    {
+      "ranking": 167,
+      "player": "Lonzo Ball",
+      "team": "LAL",
+      "salary": "$7,461,960 "
+    },
+    {
+      "ranking": 168,
+      "player": "Doug McDermott",
+      "team": "IND",
+      "salary": "$7,333,334 "
+    },
+    {
+      "ranking": 169,
+      "player": "Jae Crowder",
+      "team": "UTA",
+      "salary": "$7,305,825 "
+    },
+    {
+      "ranking": 170,
+      "player": "Marvin Bagley",
+      "team": "SAC",
+      "salary": "$7,305,600 "
+    },
+    {
+      "ranking": 171,
+      "player": "D.J. Augustin",
+      "team": "ORL",
+      "salary": "$7,250,000 "
+    },
+    {
+      "ranking": 172,
+      "player": "Dewayne Dedmon",
+      "team": "ATL",
+      "salary": "$7,200,000 "
+    },
+    {
+      "ranking": 173,
+      "player": "Lance Thomas",
+      "team": "NYK",
+      "salary": "$7,119,650 "
+    },
+    {
+      "ranking": 174,
+      "player": "D'Angelo Russell",
+      "team": "BRK",
+      "salary": "$7,019,698 "
+    },
+    {
+      "ranking": 175,
+      "player": "Langston Galloway",
+      "team": "DET",
+      "salary": "$7,000,000 "
+    },
+    {
+      "ranking": 176,
+      "player": "Dāvis Bertāns",
+      "team": "SAS",
+      "salary": "$7,000,000 "
+    },
+    {
+      "ranking": 177,
+      "player": "Ersan ?lyasova",
+      "team": "MIL",
+      "salary": "$7,000,000 "
+    },
+    {
+      "ranking": 178,
+      "player": "Boban Marjanovi?",
+      "team": "PHI",
+      "salary": "$7,000,000 "
+    },
+    {
+      "ranking": 179,
+      "player": "Al-Farouq Aminu",
+      "team": "POR",
+      "salary": "$6,957,105 "
+    },
+    {
+      "ranking": 180,
+      "player": "Jayson Tatum",
+      "team": "BOS",
+      "salary": "$6,700,800 "
+    },
+    {
+      "ranking": 181,
+      "player": "Luka Don?i?",
+      "team": "DAL",
+      "salary": "$6,560,640 "
+    },
+    {
+      "ranking": 182,
+      "player": "Nemanja Bjelica",
+      "team": "SAC",
+      "salary": "$6,500,000 "
+    },
+    {
+      "ranking": 183,
+      "player": "Mario Hezonja",
+      "team": "NYK",
+      "salary": "$6,500,000 "
+    },
+    {
+      "ranking": 184,
+      "player": "Ben Simmons",
+      "team": "PHI",
+      "salary": "$6,434,520 "
+    },
+    {
+      "ranking": 185,
+      "player": "Milo? Teodosi?",
+      "team": "LAC",
+      "salary": "$6,300,000 "
+    },
+    {
+      "ranking": 186,
+      "player": "Wayne Ellington",
+      "team": "PHO",
+      "salary": "$6,270,000 "
+    },
+    {
+      "ranking": 187,
+      "player": "Marco Belinelli",
+      "team": "SAS",
+      "salary": "$6,153,846 "
+    },
+    {
+      "ranking": 188,
+      "player": "Wesley Johnson",
+      "team": "WAS",
+      "salary": "$6,134,520 "
+    },
+    {
+      "ranking": 189,
+      "player": "Josh Jackson",
+      "team": "PHO",
+      "salary": "$6,041,520 "
+    },
+    {
+      "ranking": 190,
+      "player": "Montrezl Harrell",
+      "team": "LAC",
+      "salary": "$6,000,000 "
+    },
+    {
+      "ranking": 191,
+      "player": "Jonathon Simmons",
+      "team": "PHI",
+      "salary": "$6,000,000 "
+    },
+    {
+      "ranking": 192,
+      "player": "Ish Smith",
+      "team": "DET",
+      "salary": "$6,000,000 "
+    },
+    {
+      "ranking": 193,
+      "player": "Jaren Jackson",
+      "team": "MEM",
+      "salary": "$5,915,040 "
+    },
+    {
+      "ranking": 194,
+      "player": "Brandon Ingram",
+      "team": "LAL",
+      "salary": "$5,757,120 "
+    },
+    {
+      "ranking": 195,
+      "player": "Anthony Tolliver",
+      "team": "MIN",
+      "salary": "$5,750,000 "
+    },
+    {
+      "ranking": 196,
+      "player": "Kristaps Porzi??is",
+      "team": "DAL",
+      "salary": "$5,697,054 "
+    },
+    {
+      "ranking": 197,
+      "player": "Deron Williams",
+      "team": "BRK",
+      "salary": "$5,474,787 "
+    },
+    {
+      "ranking": 198,
+      "player": "De'Aaron Fox",
+      "team": "SAC",
+      "salary": "$5,470,920 "
+    },
+    {
+      "ranking": 199,
+      "player": "Ben McLemore",
+      "team": "SAC",
+      "salary": "$5,460,000 "
+    },
+    {
+      "ranking": 200,
+      "player": "álex Abrines",
+      "team": "OKC",
+      "salary": "$5,455,236 "
+    },
+    {
+      "ranking": 201,
+      "player": "Patrick Patterson",
+      "team": "OKC",
+      "salary": "$5,451,600 "
+    },
+    {
+      "ranking": 202,
+      "player": "Jason Smith",
+      "team": "NOP",
+      "salary": "$5,450,000 "
+    },
+    {
+      "ranking": 203,
+      "player": "Marcus Morris",
+      "team": "BOS",
+      "salary": "$5,375,000 "
+    },
+    {
+      "ranking": 204,
+      "player": "Trae Young",
+      "team": "ATL",
+      "salary": "$5,356,440 "
+    },
+    {
+      "ranking": 205,
+      "player": "Dwight Howard",
+      "team": "WAS",
+      "salary": "$5,337,000 "
+    },
+    {
+      "ranking": 206,
+      "player": "DeMarcus Cousins",
+      "team": "GSW",
+      "salary": "$5,337,000 "
+    },
+    {
+      "ranking": 207,
+      "player": "Josh Smith",
+      "team": "DET",
+      "salary": "$5,331,729 "
+    },
+    {
+      "ranking": 208,
+      "player": "Alexis Ajin?a",
+      "team": "LAC",
+      "salary": "$5,285,394 "
+    },
+    {
+      "ranking": 209,
+      "player": "Thabo Sefolosha",
+      "team": "UTA",
+      "salary": "$5,250,000 "
+    },
+    {
+      "ranking": 210,
+      "player": "Aron Baynes",
+      "team": "BOS",
+      "salary": "$5,193,600 "
+    },
+    {
+      "ranking": 211,
+      "player": "Jaylen Brown",
+      "team": "BOS",
+      "salary": "$5,169,960 "
+    },
+    {
+      "ranking": 212,
+      "player": "Patrick Beverley",
+      "team": "LAC",
+      "salary": "$5,027,028 "
+    },
+    {
+      "ranking": 213,
+      "player": "Mike Muscala",
+      "team": "LAL",
+      "salary": "$5,000,000 "
+    },
+    {
+      "ranking": 214,
+      "player": "Dirk Nowitzki",
+      "team": "DAL",
+      "salary": "$5,000,000 "
+    },
+    {
+      "ranking": 215,
+      "player": "Tony Parker",
+      "team": "CHO",
+      "salary": "$5,000,000 "
+    },
+    {
+      "ranking": 216,
+      "player": "Jonathan Isaac",
+      "team": "ORL",
+      "salary": "$4,969,080 "
+    },
+    {
+      "ranking": 217,
+      "player": "Mohamed Bamba",
+      "team": "ORL",
+      "salary": "$4,865,040 "
+    },
+    {
+      "ranking": 218,
+      "player": "Willie Cauley-Stein",
+      "team": "SAC",
+      "salary": "$4,696,875 "
+    },
+    {
+      "ranking": 219,
+      "player": "Dragan Bender",
+      "team": "PHO",
+      "salary": "$4,661,280 "
+    },
+    {
+      "ranking": 220,
+      "player": "Ron Baker",
+      "team": "NYK",
+      "salary": "$4,544,400 "
+    },
+    {
+      "ranking": 221,
+      "player": "Lauri Markkanen",
+      "team": "CHI",
+      "salary": "$4,536,120 "
+    },
+    {
+      "ranking": 222,
+      "player": "Lance Stephenson",
+      "team": "LAL",
+      "salary": "$4,449,000 "
+    },
+    {
+      "ranking": 223,
+      "player": "Kyle O'Quinn",
+      "team": "IND",
+      "salary": "$4,449,000 "
+    },
+    {
+      "ranking": 224,
+      "player": "Ed Davis",
+      "team": "BRK",
+      "salary": "$4,449,000 "
+    },
+    {
+      "ranking": 225,
+      "player": "Wendell Carter",
+      "team": "CHI",
+      "salary": "$4,441,200 "
+    },
+    {
+      "ranking": 226,
+      "player": "Justin Holiday",
+      "team": "MEM",
+      "salary": "$4,384,616 "
+    },
+    {
+      "ranking": 227,
+      "player": "Alex Len",
+      "team": "ATL",
+      "salary": "$4,350,000 "
+    },
+    {
+      "ranking": 228,
+      "player": "Mike Scott",
+      "team": "PHI",
+      "salary": "$4,320,500 "
+    },
+    {
+      "ranking": 229,
+      "player": "Luc Mbah a Moute",
+      "team": "LAC",
+      "salary": "$4,320,500 "
+    },
+    {
+      "ranking": 230,
+      "player": "Emmanuel Mudiay",
+      "team": "NYK",
+      "salary": "$4,294,480 "
+    },
+    {
+      "ranking": 231,
+      "player": "Kris Dunn",
+      "team": "CHI",
+      "salary": "$4,221,000 "
+    },
+    {
+      "ranking": 232,
+      "player": "Frank Ntilikina",
+      "team": "NYK",
+      "salary": "$4,155,720 "
+    },
+    {
+      "ranking": 233,
+      "player": "Glenn Robinson",
+      "team": "DET",
+      "salary": "$4,075,000 "
+    },
+    {
+      "ranking": 234,
+      "player": "Collin Sexton",
+      "team": "CLE",
+      "salary": "$4,068,600 "
+    },
+    {
+      "ranking": 235,
+      "player": "Al Jefferson",
+      "team": "IND",
+      "salary": "$4,000,000 "
+    },
+    {
+      "ranking": 236,
+      "player": "Stanley Johnson",
+      "team": "NOP",
+      "salary": "$3,940,402 "
+    },
+    {
+      "ranking": 237,
+      "player": "Buddy Hield",
+      "team": "SAC",
+      "salary": "$3,833,760 "
+    },
+    {
+      "ranking": 238,
+      "player": "Dennis Smith",
+      "team": "NYK",
+      "salary": "$3,819,960 "
+    },
+    {
+      "ranking": 239,
+      "player": "Kevin Knox",
+      "team": "NYK",
+      "salary": "$3,739,920 "
+    },
+    {
+      "ranking": 240,
+      "player": "J.J. Barea",
+      "team": "DAL",
+      "salary": "$3,710,850 "
+    },
+    {
+      "ranking": 241,
+      "player": "Nenê Hilário",
+      "team": "HOU",
+      "salary": "$3,651,480 "
+    },
+    {
+      "ranking": 242,
+      "player": "Zach Collins",
+      "team": "POR",
+      "salary": "$3,628,920 "
+    },
+    {
+      "ranking": 243,
+      "player": "Frank Kaminsky",
+      "team": "CHO",
+      "salary": "$3,627,842 "
+    },
+    {
+      "ranking": 244,
+      "player": "Mikal Bridges",
+      "team": "PHO",
+      "salary": "$3,552,960 "
+    },
+    {
+      "ranking": 245,
+      "player": "Mirza Teletovi?",
+      "team": "MIL",
+      "salary": "$3,500,000 "
+    },
+    {
+      "ranking": 246,
+      "player": "Michael Beasley",
+      "team": "LAC",
+      "salary": "$3,500,000 "
+    },
+    {
+      "ranking": 247,
+      "player": "Jamal Murray",
+      "team": "DEN",
+      "salary": "$3,499,800 "
+    },
+    {
+      "ranking": 248,
+      "player": "Rodney Hood",
+      "team": "POR",
+      "salary": "$3,472,887 "
+    },
+    {
+      "ranking": 249,
+      "player": "Jodie Meeks",
+      "team": "MIL",
+      "salary": "$3,454,500 "
+    },
+    {
+      "ranking": 250,
+      "player": "Justise Winslow",
+      "team": "MIA",
+      "salary": "$3,448,926 "
+    },
+    {
+      "ranking": 251,
+      "player": "Malik Monk",
+      "team": "CHO",
+      "salary": "$3,447,480 "
+    },
+    {
+      "ranking": 252,
+      "player": "Myles Turner",
+      "team": "IND",
+      "salary": "$3,410,284 "
+    },
+    {
+      "ranking": 253,
+      "player": "Allonzo Trier",
+      "team": "NYK",
+      "salary": "$3,382,000 "
+    },
+    {
+      "ranking": 254,
+      "player": "Brook Lopez",
+      "team": "MIL",
+      "salary": "$3,382,000 "
+    },
+    {
+      "ranking": 255,
+      "player": "Shai Gilgeous-Alexander",
+      "team": "LAC",
+      "salary": "$3,375,360 "
+    },
+    {
+      "ranking": 256,
+      "player": "Trey Lyles",
+      "team": "DEN",
+      "salary": "$3,364,249 "
+    },
+    {
+      "ranking": 257,
+      "player": "Ekpe Udoh",
+      "team": "UTA",
+      "salary": "$3,360,000 "
+    },
+    {
+      "ranking": 258,
+      "player": "Devin Booker",
+      "team": "PHO",
+      "salary": "$3,314,365 "
+    },
+    {
+      "ranking": 259,
+      "player": "Luke Kennard",
+      "team": "DET",
+      "salary": "$3,275,280 "
+    },
+    {
+      "ranking": 260,
+      "player": "Cameron Payne",
+      "team": "CHI",
+      "salary": "$3,263,295 "
+    },
+    {
+      "ranking": 261,
+      "player": "Troy Daniels",
+      "team": "PHO",
+      "salary": "$3,258,539 "
+    },
+    {
+      "ranking": 262,
+      "player": "Kelly Oubre",
+      "team": "PHO",
+      "salary": "$3,208,630 "
+    },
+    {
+      "ranking": 263,
+      "player": "Miles Bridges",
+      "team": "CHO",
+      "salary": "$3,206,640 "
+    },
+    {
+      "ranking": 264,
+      "player": "Marquese Chriss",
+      "team": "CLE",
+      "salary": "$3,206,160 "
+    },
+    {
+      "ranking": 265,
+      "player": "Tomá? Satoransky",
+      "team": "WAS",
+      "salary": "$3,129,187 "
+    },
+    {
+      "ranking": 266,
+      "player": "Bryn Forbes",
+      "team": "SAS",
+      "salary": "$3,125,000 "
+    },
+    {
+      "ranking": 267,
+      "player": "Donovan Mitchell",
+      "team": "UTA",
+      "salary": "$3,111,480 "
+    },
+    {
+      "ranking": 268,
+      "player": "Terry Rozier",
+      "team": "BOS",
+      "salary": "$3,050,390 "
+    },
+    {
+      "ranking": 269,
+      "player": "Jerome Robinson",
+      "team": "LAC",
+      "salary": "$3,046,200 "
+    },
+    {
+      "ranking": 270,
+      "player": "Yogi Ferrell",
+      "team": "SAC",
+      "salary": "$3,000,000 "
+    },
+    {
+      "ranking": 271,
+      "player": "Elfrid Payton",
+      "team": "NOP",
+      "salary": "$3,000,000 "
+    },
+    {
+      "ranking": 272,
+      "player": "Bam Adebayo",
+      "team": "MIA",
+      "salary": "$2,955,840 "
+    },
+    {
+      "ranking": 273,
+      "player": "Jakob P?ltl",
+      "team": "SAS",
+      "salary": "$2,947,320 "
+    },
+    {
+      "ranking": 274,
+      "player": "Michael Porter",
+      "team": "DEN",
+      "salary": "$2,894,160 "
+    },
+    {
+      "ranking": 275,
+      "player": "Andrew Nicholson",
+      "team": "POR",
+      "salary": "$2,844,429 "
+    },
+    {
+      "ranking": 276,
+      "player": "Justin Jackson",
+      "team": "DAL",
+      "salary": "$2,807,880 "
+    },
+    {
+      "ranking": 277,
+      "player": "Thon Maker",
+      "team": "DET",
+      "salary": "$2,799,720 "
+    },
+    {
+      "ranking": 278,
+      "player": "Seth Curry",
+      "team": "POR",
+      "salary": "$2,795,000 "
+    },
+    {
+      "ranking": 279,
+      "player": "Cedi Osman",
+      "team": "CLE",
+      "salary": "$2,775,000 "
+    },
+    {
+      "ranking": 280,
+      "player": "Sam Dekker",
+      "team": "WAS",
+      "salary": "$2,760,095 "
+    },
+    {
+      "ranking": 281,
+      "player": "Troy Brown",
+      "team": "WAS",
+      "salary": "$2,749,080 "
+    },
+    {
+      "ranking": 282,
+      "player": "Guerschon Yabusele",
+      "team": "BOS",
+      "salary": "$2,667,600 "
+    },
+    {
+      "ranking": 283,
+      "player": "Justin Patton",
+      "team": "PHI",
+      "salary": "$2,667,600 "
+    },
+    {
+      "ranking": 284,
+      "player": "Domantas Sabonis",
+      "team": "IND",
+      "salary": "$2,659,800 "
+    },
+    {
+      "ranking": 285,
+      "player": "Jerian Grant",
+      "team": "ORL",
+      "salary": "$2,639,314 "
+    },
+    {
+      "ranking": 286,
+      "player": "Zhaire Smith",
+      "team": "PHI",
+      "salary": "$2,611,800 "
+    },
+    {
+      "ranking": 287,
+      "player": "Delon Wright",
+      "team": "MEM",
+      "salary": "$2,536,898 "
+    },
+    {
+      "ranking": 288,
+      "player": "D.J. Wilson",
+      "team": "MIL",
+      "salary": "$2,534,280 "
+    },
+    {
+      "ranking": 289,
+      "player": "Dario ?ari?",
+      "team": "MIN",
+      "salary": "$2,526,840 "
+    },
+    {
+      "ranking": 290,
+      "player": "Taurean Waller-Prince",
+      "team": "ATL",
+      "salary": "$2,526,840 "
+    },
+    {
+      "ranking": 291,
+      "player": "Justin Anderson",
+      "team": "ATL",
+      "salary": "$2,516,048 "
+    },
+    {
+      "ranking": 292,
+      "player": "Manu Ginóbili",
+      "team": "SAS",
+      "salary": "$2,500,000 "
+    },
+    {
+      "ranking": 293,
+      "player": "Dante Cunningham",
+      "team": "SAS",
+      "salary": "$2,500,000 "
+    },
+    {
+      "ranking": 294,
+      "player": "Reggie Bullock",
+      "team": "LAL",
+      "salary": "$2,500,000 "
+    },
+    {
+      "ranking": 295,
+      "player": "Bobby Portis",
+      "team": "WAS",
+      "salary": "$2,494,346 "
+    },
+    {
+      "ranking": 296,
+      "player": "Donte DiVincenzo",
+      "team": "MIL",
+      "salary": "$2,481,000 "
+    },
+    {
+      "ranking": 297,
+      "player": "Rondae Hollis-Jefferson",
+      "team": "BRK",
+      "salary": "$2,470,357 "
+    },
+    {
+      "ranking": 298,
+      "player": "Tyus Jones",
+      "team": "MIN",
+      "salary": "$2,444,053 "
+    },
+    {
+      "ranking": 299,
+      "player": "Jarell Martin",
+      "team": "ORL",
+      "salary": "$2,416,222 "
+    },
+    {
+      "ranking": 300,
+      "player": "T.J. Leaf",
+      "team": "IND",
+      "salary": "$2,407,560 "
+    },
+    {
+      "ranking": 301,
+      "player": "Jeff Green",
+      "team": "WAS",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 302,
+      "player": "Amir Johnson",
+      "team": "PHI",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 303,
+      "player": "Raymond Felton",
+      "team": "OKC",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 304,
+      "player": "Luol Deng",
+      "team": "MIN",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 305,
+      "player": "Udonis Haslem",
+      "team": "MIA",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 306,
+      "player": "Dwyane Wade",
+      "team": "MIA",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 307,
+      "player": "JaVale McGee",
+      "team": "LAL",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 308,
+      "player": "Gerald Green",
+      "team": "HOU",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 309,
+      "player": "Andrew Bogut",
+      "team": "GSW",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 310,
+      "player": "José Calderón",
+      "team": "DET",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 311,
+      "player": "Zaza Pachulia",
+      "team": "DET",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 312,
+      "player": "Devin Harris",
+      "team": "DAL",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 313,
+      "player": "Channing Frye",
+      "team": "CLE",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 314,
+      "player": "Carmelo Anthony",
+      "team": "CHI",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 315,
+      "player": "Vince Carter",
+      "team": "ATL",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 316,
+      "player": "Jamal Crawford",
+      "team": "PHO",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 317,
+      "player": "Tyson Chandler",
+      "team": "LAL",
+      "salary": "$2,393,887 "
+    },
+    {
+      "ranking": 318,
+      "player": "Wayne Ellington",
+      "team": "DET",
+      "salary": "$2,383,076 "
+    },
+    {
+      "ranking": 319,
+      "player": "Lonnie Walker",
+      "team": "SAS",
+      "salary": "$2,357,160 "
+    },
+    {
+      "ranking": 320,
+      "player": "Jamal Crawford",
+      "team": "ATL",
+      "salary": "$2,304,226 "
+    },
+    {
+      "ranking": 321,
+      "player": "John Collins",
+      "team": "ATL",
+      "salary": "$2,299,080 "
+    },
+    {
+      "ranking": 322,
+      "player": "Denzel Valentine",
+      "team": "CHI",
+      "salary": "$2,280,600 "
+    },
+    {
+      "ranking": 323,
+      "player": "Larry Nance",
+      "team": "CLE",
+      "salary": "$2,272,391 "
+    },
+    {
+      "ranking": 324,
+      "player": "Kevin Huerter",
+      "team": "ATL",
+      "salary": "$2,250,960 "
+    },
+    {
+      "ranking": 325,
+      "player": "Monta Ellis",
+      "team": "IND",
+      "salary": "$2,245,400 "
+    },
+    {
+      "ranking": 326,
+      "player": "Harry Giles",
+      "team": "SAC",
+      "salary": "$2,207,040 "
+    },
+    {
+      "ranking": 327,
+      "player": "Darius Miller",
+      "team": "NOP",
+      "salary": "$2,205,000 "
+    },
+    {
+      "ranking": 328,
+      "player": "Derrick Rose",
+      "team": "MIN",
+      "salary": "$2,176,260 "
+    },
+    {
+      "ranking": 329,
+      "player": "Omri Casspi",
+      "team": "MEM",
+      "salary": "$2,176,260 "
+    },
+    {
+      "ranking": 330,
+      "player": "Juan Hernangómez",
+      "team": "DEN",
+      "salary": "$2,166,360 "
+    },
+    {
+      "ranking": 331,
+      "player": "Quincy Pondexter",
+      "team": "SAS",
+      "salary": "$2,165,481 "
+    },
+    {
+      "ranking": 332,
+      "player": "Jonas Jerebko",
+      "team": "GSW",
+      "salary": "$2,165,481 "
+    },
+    {
+      "ranking": 333,
+      "player": "Greg Monroe",
+      "team": "BRK",
+      "salary": "$2,165,481 "
+    },
+    {
+      "ranking": 334,
+      "player": "Josh Okogie",
+      "team": "MIN",
+      "salary": "$2,160,720 "
+    },
+    {
+      "ranking": 335,
+      "player": "Raul Neto",
+      "team": "UTA",
+      "salary": "$2,150,000 "
+    },
+    {
+      "ranking": 336,
+      "player": "Matt Barnes",
+      "team": "SAC",
+      "salary": "$2,133,542 "
+    },
+    {
+      "ranking": 337,
+      "player": "Terrance Ferguson",
+      "team": "OKC",
+      "salary": "$2,118,840 "
+    },
+    {
+      "ranking": 338,
+      "player": "Grayson Allen",
+      "team": "UTA",
+      "salary": "$2,074,320 "
+    },
+    {
+      "ranking": 339,
+      "player": "Jarrett Allen",
+      "team": "BRK",
+      "salary": "$2,034,120 "
+    },
+    {
+      "ranking": 340,
+      "player": "Isaiah Thomas",
+      "team": "DEN",
+      "salary": "$2,029,463 "
+    },
+    {
+      "ranking": 341,
+      "player": "Shelvin Mack",
+      "team": "CHO",
+      "salary": "$2,029,463 "
+    },
+    {
+      "ranking": 342,
+      "player": "Spencer Hawes",
+      "team": "MIL",
+      "salary": "$2,007,058 "
+    },
+    {
+      "ranking": 343,
+      "player": "Georgios Papagiannis",
+      "team": "SAC",
+      "salary": "$2,000,400 "
+    },
+    {
+      "ranking": 344,
+      "player": "Torrey Craig",
+      "team": "DEN",
+      "salary": "$2,000,000 "
+    },
+    {
+      "ranking": 345,
+      "player": "Corey Brewer",
+      "team": "SAC",
+      "salary": "$2,000,000 "
+    },
+    {
+      "ranking": 346,
+      "player": "Chandler Hutchison",
+      "team": "CHI",
+      "salary": "$1,991,520 "
+    },
+    {
+      "ranking": 347,
+      "player": "OG Anunoby",
+      "team": "TOR",
+      "salary": "$1,952,760 "
+    },
+    {
+      "ranking": 348,
+      "player": "Ante ?i?i?",
+      "team": "CLE",
+      "salary": "$1,952,760 "
+    },
+    {
+      "ranking": 349,
+      "player": "Shabazz Napier",
+      "team": "BRK",
+      "salary": "$1,942,422 "
+    },
+    {
+      "ranking": 350,
+      "player": "Anderson Varej?o",
+      "team": "POR",
+      "salary": "$1,913,345 "
+    },
+    {
+      "ranking": 351,
+      "player": "Aaron Holiday",
+      "team": "IND",
+      "salary": "$1,911,960 "
+    },
+    {
+      "ranking": 352,
+      "player": "Tim Duncan",
+      "team": "SAS",
+      "salary": "$1,881,250 "
+    },
+    {
+      "ranking": 353,
+      "player": "Tyler Lydon",
+      "team": "DEN",
+      "salary": "$1,874,640 "
+    },
+    {
+      "ranking": 354,
+      "player": "Larry Sanders",
+      "team": "MIL",
+      "salary": "$1,865,547 "
+    },
+    {
+      "ranking": 355,
+      "player": "Henry Ellenson",
+      "team": "DET",
+      "salary": "$1,857,480 "
+    },
+    {
+      "ranking": 356,
+      "player": "Anfernee Simons",
+      "team": "POR",
+      "salary": "$1,835,520 "
+    },
+    {
+      "ranking": 357,
+      "player": "Trey Burke",
+      "team": "DAL",
+      "salary": "$1,795,015 "
+    },
+    {
+      "ranking": 358,
+      "player": "Malik Beasley",
+      "team": "DEN",
+      "salary": "$1,773,840 "
+    },
+    {
+      "ranking": 359,
+      "player": "Moritz Wagner",
+      "team": "LAL",
+      "salary": "$1,762,080 "
+    },
+    {
+      "ranking": 360,
+      "player": "Nerlens Noel",
+      "team": "OKC",
+      "salary": "$1,757,429 "
+    },
+    {
+      "ranking": 361,
+      "player": "Ian Clark",
+      "team": "NOP",
+      "salary": "$1,757,429 "
+    },
+    {
+      "ranking": 362,
+      "player": "Caleb Swanigan",
+      "team": "SAC",
+      "salary": "$1,740,000 "
+    },
+    {
+      "ranking": 363,
+      "player": "Furkan Korkmaz",
+      "team": "PHI",
+      "salary": "$1,740,000 "
+    },
+    {
+      "ranking": 364,
+      "player": "Joakim Noah",
+      "team": "MEM",
+      "salary": "$1,731,173 "
+    },
+    {
+      "ranking": 365,
+      "player": "Landry Shamet",
+      "team": "LAC",
+      "salary": "$1,703,640 "
+    },
+    {
+      "ranking": 366,
+      "player": "Caris LeVert",
+      "team": "BRK",
+      "salary": "$1,702,800 "
+    },
+    {
+      "ranking": 367,
+      "player": "Jonah Bolden",
+      "team": "PHI",
+      "salary": "$1,690,000 "
+    },
+    {
+      "ranking": 368,
+      "player": "Kyle Kuzma",
+      "team": "LAL",
+      "salary": "$1,689,840 "
+    },
+    {
+      "ranking": 369,
+      "player": "Tony Bradley",
+      "team": "UTA",
+      "salary": "$1,679,520 "
+    },
+    {
+      "ranking": 370,
+      "player": "Derrick White",
+      "team": "SAS",
+      "salary": "$1,667,160 "
+    },
+    {
+      "ranking": 371,
+      "player": "Spencer Dinwiddie",
+      "team": "BRK",
+      "salary": "$1,656,092 "
+    },
+    {
+      "ranking": 372,
+      "player": "MarShon Brooks",
+      "team": "CHI",
+      "salary": "$1,656,092 "
+    },
+    {
+      "ranking": 373,
+      "player": "Josh Hart",
+      "team": "LAL",
+      "salary": "$1,655,160 "
+    },
+    {
+      "ranking": 374,
+      "player": "Robert Williams",
+      "team": "BOS",
+      "salary": "$1,654,440 "
+    },
+    {
+      "ranking": 375,
+      "player": "Jacob Evans",
+      "team": "GSW",
+      "salary": "$1,644,240 "
+    },
+    {
+      "ranking": 376,
+      "player": "Pat Connaughton",
+      "team": "MIL",
+      "salary": "$1,641,000 "
+    },
+    {
+      "ranking": 377,
+      "player": "DeAndre' Bembry",
+      "team": "ATL",
+      "salary": "$1,634,640 "
+    },
+    {
+      "ranking": 378,
+      "player": "D?anan Musa",
+      "team": "BRK",
+      "salary": "$1,632,240 "
+    },
+    {
+      "ranking": 379,
+      "player": "James Ennis",
+      "team": "PHI",
+      "salary": "$1,621,415 "
+    },
+    {
+      "ranking": 380,
+      "player": "Noah Vonleh",
+      "team": "NYK",
+      "salary": "$1,621,415 "
+    },
+    {
+      "ranking": 381,
+      "player": "Tim Frazier",
+      "team": "NOP",
+      "salary": "$1,621,415 "
+    },
+    {
+      "ranking": 382,
+      "player": "Nik Stauskas",
+      "team": "IND",
+      "salary": "$1,621,415 "
+    },
+    {
+      "ranking": 383,
+      "player": "Omari Spellman",
+      "team": "ATL",
+      "salary": "$1,620,480 "
+    },
+    {
+      "ranking": 384,
+      "player": "Luke Kornet",
+      "team": "NYK",
+      "salary": "$1,619,000 "
+    },
+    {
+      "ranking": 385,
+      "player": "Rodions Kurucs",
+      "team": "BRK",
+      "salary": "$1,618,320 "
+    },
+    {
+      "ranking": 386,
+      "player": "Richaun Holmes",
+      "team": "PHO",
+      "salary": "$1,600,520 "
+    },
+    {
+      "ranking": 387,
+      "player": "T.J. McConnell",
+      "team": "PHI",
+      "salary": "$1,600,520 "
+    },
+    {
+      "ranking": 388,
+      "player": "Malachi Richardson",
+      "team": "PHI",
+      "salary": "$1,569,360 "
+    },
+    {
+      "ranking": 389,
+      "player": "Jahlil Okafor",
+      "team": "NOP",
+      "salary": "$1,567,007 "
+    },
+    {
+      "ranking": 390,
+      "player": "Kevon Looney",
+      "team": "GSW",
+      "salary": "$1,567,007 "
+    },
+    {
+      "ranking": 391,
+      "player": "Salah Mejri",
+      "team": "DAL",
+      "salary": "$1,567,007 "
+    },
+    {
+      "ranking": 392,
+      "player": "Pascal Siakam",
+      "team": "TOR",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 393,
+      "player": "Skal Labissière",
+      "team": "POR",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 394,
+      "player": "Dejounte Murray",
+      "team": "SAS",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 395,
+      "player": "Damian Jones",
+      "team": "GSW",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 396,
+      "player": "Deyonta Davis",
+      "team": "SAC",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 397,
+      "player": "Jake Layman",
+      "team": "POR",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 398,
+      "player": "Cheick Diallo",
+      "team": "NOP",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 399,
+      "player": "Malcolm Brogdon",
+      "team": "MIL",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 400,
+      "player": "Ivica Zubac",
+      "team": "LAC",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 401,
+      "player": "Rodney McGruder",
+      "team": "LAC",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 402,
+      "player": "Wade Baldwin",
+      "team": "IND",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 403,
+      "player": "Quinn Cook",
+      "team": "GSW",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 404,
+      "player": "Chinanu Onuaku",
+      "team": "DAL",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 405,
+      "player": "Dorian Finney-Smith",
+      "team": "DAL",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 406,
+      "player": "Willy Hernangómez",
+      "team": "CHO",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 407,
+      "player": "Timothé Luwawu-Cabarrot",
+      "team": "CHI",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 408,
+      "player": "Wayne Selden",
+      "team": "CHI",
+      "salary": "$1,544,951 "
+    },
+    {
+      "ranking": 409,
+      "player": "Georges Niang",
+      "team": "UTA",
+      "salary": "$1,512,601 "
+    },
+    {
+      "ranking": 410,
+      "player": "Christian Wood",
+      "team": "NOP",
+      "salary": "$1,512,601 "
+    },
+    {
+      "ranking": 411,
+      "player": "Derrick Jones",
+      "team": "MIA",
+      "salary": "$1,512,601 "
+    },
+    {
+      "ranking": 412,
+      "player": "David Nwaba",
+      "team": "CLE",
+      "salary": "$1,512,601 "
+    },
+    {
+      "ranking": 413,
+      "player": "Treveon Graham",
+      "team": "BRK",
+      "salary": "$1,512,601 "
+    },
+    {
+      "ranking": 414,
+      "player": "Sviatoslav Mykhailiuk",
+      "team": "DET",
+      "salary": "$1,487,694 "
+    },
+    {
+      "ranking": 415,
+      "player": "Mitchell Robinson",
+      "team": "NYK",
+      "salary": "$1,485,440 "
+    },
+    {
+      "ranking": 416,
+      "player": "Jordan Bell",
+      "team": "GSW",
+      "salary": "$1,378,252 "
+    },
+    {
+      "ranking": 417,
+      "player": "Wesley Iwundu",
+      "team": "ORL",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 418,
+      "player": "Sterling Brown",
+      "team": "MIL",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 419,
+      "player": "Semi Ojeleye",
+      "team": "BOS",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 420,
+      "player": "Frank Jackson",
+      "team": "NOP",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 421,
+      "player": "Ivan Rabb",
+      "team": "MEM",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 422,
+      "player": "Thomas Bryant",
+      "team": "WAS",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 423,
+      "player": "Royce O'Neale",
+      "team": "UTA",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 424,
+      "player": "Frank Mason",
+      "team": "SAC",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 425,
+      "player": "Davon Reed",
+      "team": "PHO",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 426,
+      "player": "Khem Birch",
+      "team": "ORL",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 427,
+      "player": "Abdel Nader",
+      "team": "OKC",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 428,
+      "player": "Damyean Dotson",
+      "team": "NYK",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 429,
+      "player": "Rade Zagorac",
+      "team": "MEM",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 430,
+      "player": "Dillon Brooks",
+      "team": "MEM",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 431,
+      "player": "Tyler Dorsey",
+      "team": "MEM",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 432,
+      "player": "Jawun Evans",
+      "team": "LAC",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 433,
+      "player": "Sindarius Thornwell",
+      "team": "LAC",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 434,
+      "player": "Ike Anigbogu",
+      "team": "IND",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 435,
+      "player": "Maxi Kleber",
+      "team": "DAL",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 436,
+      "player": "Dwayne Bacon",
+      "team": "CHO",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 437,
+      "player": "Daniel Theis",
+      "team": "BOS",
+      "salary": "$1,378,242 "
+    },
+    {
+      "ranking": 438,
+      "player": "Kevin Martin",
+      "team": "MIN",
+      "salary": "$1,360,304 "
+    },
+    {
+      "ranking": 439,
+      "player": "Monte Morris",
+      "team": "DEN",
+      "salary": "$1,349,383 "
+    },
+    {
+      "ranking": 440,
+      "player": "Antonio Blakeney",
+      "team": "CHI",
+      "salary": "$1,349,383 "
+    },
+    {
+      "ranking": 441,
+      "player": "Tyrone Wallace",
+      "team": "LAC",
+      "salary": "$1,349,383 "
+    },
+    {
+      "ranking": 442,
+      "player": "Alfonzo McKinnie",
+      "team": "GSW",
+      "salary": "$1,349,383 "
+    },
+    {
+      "ranking": 443,
+      "player": "Ryan Arcidiacono",
+      "team": "CHI",
+      "salary": "$1,349,383 "
+    },
+    {
+      "ranking": 444,
+      "player": "Jabari Bird",
+      "team": "ATL",
+      "salary": "$1,349,383 "
+    },
+    {
+      "ranking": 445,
+      "player": "Daniel Hamilton",
+      "team": "ATL",
+      "salary": "$1,349,383 "
+    },
+    {
+      "ranking": 446,
+      "player": "Shaquille Harrison",
+      "team": "CHI",
+      "salary": "$1,311,265 "
+    },
+    {
+      "ranking": 447,
+      "player": "élie Okobo",
+      "team": "PHO",
+      "salary": "$1,238,464 "
+    },
+    {
+      "ranking": 448,
+      "player": "Jalen Brunson",
+      "team": "DAL",
+      "salary": "$1,230,000 "
+    },
+    {
+      "ranking": 449,
+      "player": "Michael Carter-Williams",
+      "team": "CHI",
+      "salary": "$1,200,000 "
+    },
+    {
+      "ranking": 450,
+      "player": "Austin Rivers",
+      "team": "HOU",
+      "salary": "$1,155,323 "
+    },
+    {
+      "ranking": 451,
+      "player": "Melvin Frazier",
+      "team": "ORL",
+      "salary": "$1,050,000 "
+    },
+    {
+      "ranking": 452,
+      "player": "Isaac Bonga",
+      "team": "LAL",
+      "salary": "$1,000,000 "
+    },
+    {
+      "ranking": 453,
+      "player": "Justin Hamilton",
+      "team": "TOR",
+      "salary": "$1,000,000 "
+    },
+    {
+      "ranking": 454,
+      "player": "Shelvin Mack",
+      "team": "ORL",
+      "salary": "$1,000,000 "
+    },
+    {
+      "ranking": 455,
+      "player": "Kyle Singler",
+      "team": "OKC",
+      "salary": "$999,200 "
+    },
+    {
+      "ranking": 456,
+      "player": "Devonte' Graham",
+      "team": "CHO",
+      "salary": "$988,464 "
+    },
+    {
+      "ranking": 457,
+      "player": "Isaiah Taylor",
+      "team": "CLE",
+      "salary": "$950,000 "
+    },
+    {
+      "ranking": 458,
+      "player": "De'Anthony Melton",
+      "team": "PHO",
+      "salary": "$949,000 "
+    },
+    {
+      "ranking": 459,
+      "player": "Jason Thompson",
+      "team": "GSW",
+      "salary": "$945,126 "
+    },
+    {
+      "ranking": 460,
+      "player": "Kenneth Faried",
+      "team": "HOU",
+      "salary": "$917,272 "
+    },
+    {
+      "ranking": 461,
+      "player": "Chasson Randle",
+      "team": "WAS",
+      "salary": "$869,094 "
+    },
+    {
+      "ranking": 462,
+      "player": "Gary Trent",
+      "team": "POR",
+      "salary": "$838,464 "
+    },
+    {
+      "ranking": 463,
+      "player": "Ryan Broekhoff",
+      "team": "DAL",
+      "salary": "$838,464 "
+    },
+    {
+      "ranking": 464,
+      "player": "Chimezie Metu",
+      "team": "SAS",
+      "salary": "$838,464 "
+    },
+    {
+      "ranking": 465,
+      "player": "Hamidou Diallo",
+      "team": "OKC",
+      "salary": "$838,464 "
+    },
+    {
+      "ranking": 466,
+      "player": "Keita Bates-Diop",
+      "team": "MIN",
+      "salary": "$838,464 "
+    },
+    {
+      "ranking": 467,
+      "player": "Jevon Carter",
+      "team": "MEM",
+      "salary": "$838,464 "
+    },
+    {
+      "ranking": 468,
+      "player": "Bruce Brown",
+      "team": "DET",
+      "salary": "$838,464 "
+    },
+    {
+      "ranking": 469,
+      "player": "Jarred Vanderbilt",
+      "team": "DEN",
+      "salary": "$838,464 "
+    },
+    {
+      "ranking": 470,
+      "player": "Khyri Thomas",
+      "team": "DET",
+      "salary": "$838,464 "
+    },
+    {
+      "ranking": 471,
+      "player": "Alize Johnson",
+      "team": "IND",
+      "salary": "$838,464 "
+    },
+    {
+      "ranking": 472,
+      "player": "Isaiah Briscoe",
+      "team": "ORL",
+      "salary": "$838,464 "
+    },
+    {
+      "ranking": 473,
+      "player": "Kenrich Williams",
+      "team": "NOP",
+      "salary": "$838,464 "
+    },
+    {
+      "ranking": 474,
+      "player": "Isaiah Hartenstein",
+      "team": "HOU",
+      "salary": "$838,464 "
+    },
+    {
+      "ranking": 475,
+      "player": "Ray Spalding",
+      "team": "DAL",
+      "salary": "$838,464 "
+    },
+    {
+      "ranking": 476,
+      "player": "Brad Wanamaker",
+      "team": "BOS",
+      "salary": "$838,464 "
+    },
+    {
+      "ranking": 477,
+      "player": "Martell Webster",
+      "team": "WAS",
+      "salary": "$833,333 "
+    },
+    {
+      "ranking": 478,
+      "player": "Lorenzo Brown",
+      "team": "TOR",
+      "salary": "$800,000 "
+    },
+    {
+      "ranking": 479,
+      "player": "Patrick McCaw",
+      "team": "TOR",
+      "salary": "$786,000 "
+    },
+    {
+      "ranking": 480,
+      "player": "Wesley Matthews",
+      "team": "IND",
+      "salary": "$737,715 "
+    },
+    {
+      "ranking": 481,
+      "player": "Jeremy Lin",
+      "team": "TOR",
+      "salary": "$697,000 "
+    },
+    {
+      "ranking": 482,
+      "player": "Cole Aldrich",
+      "team": "MIN",
+      "salary": "$685,341 "
+    },
+    {
+      "ranking": 483,
+      "player": "James Nunnally",
+      "team": "MIN",
+      "salary": "$655,632 "
+    },
+    {
+      "ranking": 484,
+      "player": "Enes Kanter",
+      "team": "POR",
+      "salary": "$653,556 "
+    },
+    {
+      "ranking": 485,
+      "player": "Carlos Delfino",
+      "team": "LAC",
+      "salary": "$650,000 "
+    },
+    {
+      "ranking": 486,
+      "player": "Gary Clark",
+      "team": "HOU",
+      "salary": "$596,872 "
+    },
+    {
+      "ranking": 487,
+      "player": "Markieff Morris",
+      "team": "OKC",
+      "salary": "$573,295 "
+    },
+    {
+      "ranking": 488,
+      "player": "Nik Stauskas",
+      "team": "CLE",
+      "salary": "$540,472 "
+    },
+    {
+      "ranking": 489,
+      "player": "Pau Gasol",
+      "team": "MIL",
+      "salary": "$527,467 "
+    },
+    {
+      "ranking": 490,
+      "player": "Caron Butler",
+      "team": "SAC",
+      "salary": "$517,219 "
+    },
+    {
+      "ranking": 491,
+      "player": "Zhou Qi",
+      "team": "HOU",
+      "salary": "$506,134 "
+    },
+    {
+      "ranking": 492,
+      "player": "Bruno Caboclo",
+      "team": "MEM",
+      "salary": "$487,000 "
+    },
+    {
+      "ranking": 493,
+      "player": "Dakari Johnson",
+      "team": "MEM",
+      "salary": "$459,414 "
+    },
+    {
+      "ranking": 494,
+      "player": "Chris Boucher",
+      "team": "TOR",
+      "salary": "$457,418 "
+    },
+    {
+      "ranking": 495,
+      "player": "Malcolm Miller",
+      "team": "TOR",
+      "salary": "$457,418 "
+    },
+    {
+      "ranking": 496,
+      "player": "Isaiah Canaan",
+      "team": "PHO",
+      "salary": "$456,733 "
+    },
+    {
+      "ranking": 497,
+      "player": "Edmond Sumner",
+      "team": "IND",
+      "salary": "$449,794 "
+    },
+    {
+      "ranking": 498,
+      "player": "A.J. Hammons",
+      "team": "MIA",
+      "salary": "$350,088 "
+    },
+    {
+      "ranking": 499,
+      "player": "Henry Ellenson",
+      "team": "NYK",
+      "salary": "$341,831 "
+    },
+    {
+      "ranking": 500,
+      "player": "Festus Ezeli",
+      "team": "POR",
+      "salary": "$333,333 "
+    },
+    {
+      "ranking": 501,
+      "player": "C.J. Watson",
+      "team": "ORL",
+      "salary": "$333,333 "
+    },
+    {
+      "ranking": 502,
+      "player": "Patrick McCaw",
+      "team": "CLE",
+      "salary": "$323,529 "
+    },
+    {
+      "ranking": 503,
+      "player": "Nick Young",
+      "team": "DEN",
+      "salary": "$311,070 "
+    },
+    {
+      "ranking": 504,
+      "player": "Corey Brewer",
+      "team": "SAC",
+      "salary": "$270,496 "
+    },
+    {
+      "ranking": 505,
+      "player": "Corey Brewer",
+      "team": "PHI",
+      "salary": "$270,496 "
+    },
+    {
+      "ranking": 506,
+      "player": "Okaro White",
+      "team": "WAS",
+      "salary": "$264,919 "
+    },
+    {
+      "ranking": 507,
+      "player": "Miroslav Raduljica",
+      "team": "LAC",
+      "salary": "$252,043 "
+    },
+    {
+      "ranking": 508,
+      "player": "Eric Moreland",
+      "team": "PHO",
+      "salary": "$239,035 "
+    },
+    {
+      "ranking": 509,
+      "player": "Jaylen Adams",
+      "team": "ATL",
+      "salary": "$236,854 "
+    },
+    {
+      "ranking": 510,
+      "player": "Quincy Acy",
+      "team": "PHO",
+      "salary": "$213,949 "
+    },
+    {
+      "ranking": 511,
+      "player": "Tim Frazier",
+      "team": "MIL",
+      "salary": "$205,098 "
+    },
+    {
+      "ranking": 512,
+      "player": "Andrew Harrison",
+      "team": "MEM",
+      "salary": "$200,000 "
+    },
+    {
+      "ranking": 513,
+      "player": "Jimmer Fredette",
+      "team": "PHO",
+      "salary": "$198,580 "
+    },
+    {
+      "ranking": 514,
+      "player": "Michael Carter-Williams",
+      "team": "ORL",
+      "salary": "$198,580 "
+    },
+    {
+      "ranking": 515,
+      "player": "Isaiah Canaan",
+      "team": "MIN",
+      "salary": "$198,580 "
+    },
+    {
+      "ranking": 516,
+      "player": "Terrence Jones",
+      "team": "HOU",
+      "salary": "$198,580 "
+    },
+    {
+      "ranking": 517,
+      "player": "Jodie Meeks",
+      "team": "TOR",
+      "salary": "$196,724 "
+    },
+    {
+      "ranking": 518,
+      "player": "Dairis Bertāns",
+      "team": "NOP",
+      "salary": "$194,220 "
+    },
+    {
+      "ranking": 519,
+      "player": "Ray Spalding",
+      "team": "PHO",
+      "salary": "$184,746 "
+    },
+    {
+      "ranking": 520,
+      "player": "Bruno Caboclo",
+      "team": "MEM",
+      "salary": "$183,211 "
+    },
+    {
+      "ranking": 521,
+      "player": "Cameron Payne",
+      "team": "CLE",
+      "salary": "$177,063 "
+    },
+    {
+      "ranking": 522,
+      "player": "Deyonta Davis",
+      "team": "ATL",
+      "salary": "$170,916 "
+    },
+    {
+      "ranking": 523,
+      "player": "Ron Baker",
+      "team": "WAS",
+      "salary": "$170,915 "
+    },
+    {
+      "ranking": 524,
+      "player": "Jamaal Franklin",
+      "team": "MEM",
+      "salary": "$163,296 "
+    },
+    {
+      "ranking": 525,
+      "player": "Ben Moore",
+      "team": "IND",
+      "salary": "$160,096 "
+    },
+    {
+      "ranking": 526,
+      "player": "Deonte Burton",
+      "team": "OKC",
+      "salary": "$151,587 "
+    },
+    {
+      "ranking": 527,
+      "player": "Jodie Meeks",
+      "team": "TOR",
+      "salary": "$122,953 "
+    },
+    {
+      "ranking": 528,
+      "player": "Troy Williams",
+      "team": "HOU",
+      "salary": "$122,741 "
+    },
+    {
+      "ranking": 529,
+      "player": "Greg Monroe",
+      "team": "BOS",
+      "salary": "$122,344 "
+    },
+    {
+      "ranking": 530,
+      "player": "Cameron Reynolds",
+      "team": "MIN",
+      "salary": "$108,953 "
+    },
+    {
+      "ranking": 531,
+      "player": "Tyler Zeller",
+      "team": "ATL",
+      "salary": "$106,974 "
+    },
+    {
+      "ranking": 532,
+      "player": "John Jenkins",
+      "team": "NYK",
+      "salary": "$99,290 "
+    },
+    {
+      "ranking": 533,
+      "player": "John Jenkins",
+      "team": "NYK",
+      "salary": "$99,290 "
+    },
+    {
+      "ranking": 534,
+      "player": "John Jenkins",
+      "team": "WAS",
+      "salary": "$99,290 "
+    },
+    {
+      "ranking": 535,
+      "player": "Isaiah Canaan",
+      "team": "MIL",
+      "salary": "$99,290 "
+    },
+    {
+      "ranking": 536,
+      "player": "Walt Lemon",
+      "team": "CHI",
+      "salary": "$99,107 "
+    },
+    {
+      "ranking": 537,
+      "player": "Cameron Reynolds",
+      "team": "MIN",
+      "salary": "$94,742 "
+    },
+    {
+      "ranking": 538,
+      "player": "Justin Bibbs",
+      "team": "LAC",
+      "salary": "$94,742 "
+    },
+    {
+      "ranking": 539,
+      "player": "Mitch Creek",
+      "team": "BRK",
+      "salary": "$94,742 "
+    },
+    {
+      "ranking": 540,
+      "player": "B.J. Johnson",
+      "team": "ATL",
+      "salary": "$94,742 "
+    },
+    {
+      "ranking": 541,
+      "player": "Demetrius Jackson",
+      "team": "BOS",
+      "salary": "$92,857 "
+    },
+    {
+      "ranking": 542,
+      "player": "Chris Chiozza",
+      "team": "HOU",
+      "salary": "$90,005 "
+    },
+    {
+      "ranking": 543,
+      "player": "Eric Moreland",
+      "team": "TOR",
+      "salary": "$88,531 "
+    },
+    {
+      "ranking": 544,
+      "player": "JaKarr Sampson",
+      "team": "CHI",
+      "salary": "$88,531 "
+    },
+    {
+      "ranking": 545,
+      "player": "Henry Ellenson",
+      "team": "NYK",
+      "salary": "$85,458 "
+    },
+    {
+      "ranking": 546,
+      "player": "Gary Payton",
+      "team": "WAS",
+      "salary": "$85,458 "
+    },
+    {
+      "ranking": 547,
+      "player": "Scotty Hopson",
+      "team": "OKC",
+      "salary": "$85,458 "
+    },
+    {
+      "ranking": 548,
+      "player": "Charles Cooke",
+      "team": "MIA",
+      "salary": "$76,236 "
+    },
+    {
+      "ranking": 549,
+      "player": "Andre Ingram",
+      "team": "LAL",
+      "salary": "$76,236 "
+    },
+    {
+      "ranking": 550,
+      "player": "Kobi Simmons",
+      "team": "CLE",
+      "salary": "$76,236 "
+    },
+    {
+      "ranking": 551,
+      "player": "Donatas Motiejūnas",
+      "team": "SAS",
+      "salary": "$59,820 "
+    },
+    {
+      "ranking": 552,
+      "player": "Jemerrio Jones",
+      "team": "LAL",
+      "salary": "$52,108 "
+    },
+    {
+      "ranking": 553,
+      "player": "Shaquille Harrison",
+      "team": "PHO",
+      "salary": "$50,000 "
+    },
+    {
+      "ranking": 554,
+      "player": "Garlon Green",
+      "team": "NOP",
+      "salary": "$50,000 "
+    },
+    {
+      "ranking": 555,
+      "player": "Ray Spalding",
+      "team": "PHO",
+      "salary": "$47,371 "
+    },
+    {
+      "ranking": 556,
+      "player": "Chris Chiozza",
+      "team": "HOU",
+      "salary": "$47,371 "
+    },
+    {
+      "ranking": 557,
+      "player": "Mitch Creek",
+      "team": "MIN",
+      "salary": "$47,371 "
+    },
+    {
+      "ranking": 558,
+      "player": "Cody Demps",
+      "team": "SAC",
+      "salary": "$47,371 "
+    },
+    {
+      "ranking": 559,
+      "player": "B.J. Johnson",
+      "team": "SAC",
+      "salary": "$47,371 "
+    },
+    {
+      "ranking": 560,
+      "player": "Emanuel Terry",
+      "team": "PHO",
+      "salary": "$47,371 "
+    },
+    {
+      "ranking": 561,
+      "player": "Richard Solomon",
+      "team": "OKC",
+      "salary": "$47,371 "
+    },
+    {
+      "ranking": 562,
+      "player": "Emanuel Terry",
+      "team": "MIA",
+      "salary": "$47,371 "
+    },
+    {
+      "ranking": 563,
+      "player": "Dusty Hannahs",
+      "team": "MEM",
+      "salary": "$47,371 "
+    },
+    {
+      "ranking": 564,
+      "player": "Scott Machado",
+      "team": "LAL",
+      "salary": "$47,371 "
+    },
+    {
+      "ranking": 565,
+      "player": "Stephan Hicks",
+      "team": "IND",
+      "salary": "$47,371 "
+    },
+    {
+      "ranking": 566,
+      "player": "Tahjere McCall",
+      "team": "BRK",
+      "salary": "$47,371 "
+    },
+    {
+      "ranking": 567,
+      "player": "Jordan Sibert",
+      "team": "ATL",
+      "salary": "$47,371 "
+    },
+    {
+      "ranking": 568,
+      "player": "Isaac Humphries",
+      "team": "ATL",
+      "salary": "$47,371 "
+    },
+    {
+      "ranking": 569,
+      "player": "Billy Garrett",
+      "team": "NYK",
+      "salary": "$42,634 "
+    },
+    {
+      "ranking": 570,
+      "player": "Emanuel Terry",
+      "team": "DEN",
+      "salary": "$35,000 "
+    },
+    {
+      "ranking": 571,
+      "player": "Troy Williams",
+      "team": "NOP",
+      "salary": "$34,183 "
+    },
+    {
+      "ranking": 572,
+      "player": "Deyonta Davis",
+      "team": "ATL",
+      "salary": "$25,637 "
+    },
+    {
+      "ranking": 573,
+      "player": "Michael Frazier",
+      "team": "HOU",
+      "salary": "$23,685 "
+    },
+    {
+      "ranking": 574,
+      "player": "Jordan McRae",
+      "team": "WAS",
+      "salary": "$17,092 "
+    },
+    {
+      "ranking": 575,
+      "player": "Jonathan Gibson",
+      "team": "BOS",
+      "salary": "$17,092 "
+    },
+    {
+      "ranking": 576,
+      "player": "Yante Maten",
+      "team": "MIA",
+      "salary": "$14,211 "
+    },
+    {
+      "ranking": 577,
+      "player": "Duncan Robinson",
+      "team": "MIA",
+      "salary": "$9,474 "
+    },
+    {
+      "ranking": 578,
+      "player": "Mitch Creek",
+      "team": "MIN",
+      "salary": "$9,474 "
+    },
+    {
+      "ranking": 579,
+      "player": "Tarik Phillip",
+      "team": "WAS",
+      "salary": "$9,474 "
+    },
+    {
+      "ranking": 580,
+      "player": "Terry Larrier",
+      "team": "DAL",
+      "salary": "$6,000 "
+    },
+    {
+      "ranking": 581,
+      "player": "Kendrick Nunn",
+      "team": "MIA",
+      "salary": "$4,737 "
+    },
+    {
+      "ranking": 582,
+      "player": "Ding Yanyuhang",
+      "team": "DAL",
+      "salary": "$4,737 "
+    }
+  ]
+}

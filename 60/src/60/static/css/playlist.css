@@ -1,0 +1,6 @@
+.con-l .cover{position: relative;width: 210px;height:210px;margin-bottom: 40px;margin-right: 103px;font-size: 0;}
+.con-l .cover img{width:100%;height:100%;}
+.con-l .intr{margin-top: 40px;margin-bottom: 10px;font-size: 22px;font-weight: 600;height: 30px;line-height: 30px;}
+.con-l .intr-txt{width: 90%;font-size: 14px;color: #666;line-height: 21px;margin-bottom: 30px;}
+.con-l .intr-txt,.con-l .intr{margin-left:10px;}
+.con-r .r-title{word-break: break-all;font-size: 30px;font-weight: 600;line-height: 42px;}

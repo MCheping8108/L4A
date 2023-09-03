@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+	
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script>
+        //注册功能的ajax方法
+    function register_post(){
+        var username = document.getElementsByClassName('ele-username')[0];
+        var password = document.getElementsByClassName('ele-password')[0];
+        var telephone = document.getElementsByClassName('ele-telephone')[0];
+        var data = {
+            'username' : username.value,
+            'password' : password.value,
+            'telephone' : telephone.value
+        }
+        // 在下方写你的代码：发送ajax-post请求，地址是/user/register,发送数据data,使用alert()弹出响应信息
+
+
+    }
+
+    </script>
+	
+</head>
+<body>
+
+    <div class="form" style="position:relative">
+		
+		<!--注册表单-->
+        <div class="form_register" style="position:absolute;height:500px;">
+            <form action="#">
+                <h1>游戏角色信息</h1>
+                <div class="form_item">
+                    <label for="username">角色名称：</label>
+                    <input type="text" name="username" class="ele-username" placeholder="请输入角色昵称" required >
+                </div>
+                <div class="form_item">
+                    <label for="stunt">角色特技：</label>
+                    <input name="stunt" class="ele-password" placeholder="请输入角色特技" required>
+                </div>
+                <div class="form_item">
+                    <label for="gender">角色性别：</label>
+                    <input name="gender" id="tel" placeholder="男/女" class="ele-telephone" required>
+                </div>
+                <div class="form_item">
+                    <input type="button" value="保存" onclick="register_post();" style="background: rgba(80, 163, 15, 0.89);color:#111721;font-size:20px;">
+                </div>
+            </form>
+            <div class="info">已有账号？点击<span class="switch login_Btn">登录</span></div>
+        </div>
+		
+		<!--登录表单-->
+        <div class="form_login" style="height:0;">
+			
+			<form action="#">
+				<h1>登录表单</h1>
+				<div class="form_item">
+					<label for="username">用户名：</label>
+					<input type="text" name="username" id="username" placeholder="请输入用户名" required>
+				</div>
+				<div class="form_item">
+					<label for="password">密码：</label>
+					<input type="password" name="password" id="password" placeholder="请输入密码名" required>
+				</div>
+				<div class="form_item">
+					<input type="submit" value="登录">
+				</div>
+			</form>
+			<div class="info">没有账号？点击<span class="switch register_Btn">注册账号</span></div>
+			
+         </div>
+        
+    </div>
+</body>
+
+<script src="/static/js/form.js"></script>
+<script type="text/javascript" src="/static/js/jquery-1.8.3.min.js"></script>
+</html>

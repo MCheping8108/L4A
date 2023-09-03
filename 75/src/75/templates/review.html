@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>upload</title>
+    <link rel="stylesheet" href="../static/css/75/review.css">
+    <script type="text/javascript" src="../static/js/jquery/jquery.min.js"></script>
+    <script>
+        function check(){
+            inputs = $("[type='file']");
+            if(inputs.length == 0){
+                alert('请添加 type是file 的input元素');
+                return false;
+            }
+            if(inputs[0].name != 'myfile'){
+                alert('请添加type是file的input元素的name属性值设置为 myfile');
+                return false;
+            }
+            if (inputs[0].value == null || inputs[0].value == ''){
+                alert('请选择文件后再提交！');
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+<div>{{ data }}</div>
+<form onsubmit="return check()" action='/review' method='post' enctype='multipart/form-data'>
+    <input type='file' name='file' id='myfile'>
+    <input type='submit' id="submit">
+</form>
+
+
+</body>
+</html>

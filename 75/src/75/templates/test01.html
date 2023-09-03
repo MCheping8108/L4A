@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test01</title>
+    <link rel="stylesheet" href="../static/css/75/cs1.css">
+    <script type="text/javascript" src="../static/js/jquery/jquery.min.js"></script>
+    <script>
+        function check(){
+            inputs = $("[type='file']");
+            if(inputs.length == 0){
+                alert('请添加 type是file 的input元素');
+                return false;
+            }
+            if(inputs[0].name != 'filelist'){
+                alert('请添加type是file的input元素的name属性值设置为 pic');
+                return false;
+            }
+            if (inputs[0].value == null || inputs[0].value == ''){
+                alert('请选择文件后再提交！');
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+
+<form onsubmit="return check()" action='/test01' method='post' enctype='multipart/form-data'>
+    <!--在下方写你的代码：添加三个 input 标签，实现功能：添加文件，name 属性值设置为 filelist -->
+   
+    <input type='submit' value="提交">
+    <div class='data'>{{ data|safe }}</div>
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

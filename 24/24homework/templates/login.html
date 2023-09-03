@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>登录</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+</head>
+<body>
+<form action="/login" method="post" class="login_form">
+    <h1 class="login_title">用户登录</h1>
+    <input type="text" name="username" placeholder="用户名" class="input_txt" id="name">
+    <input type="password" name="password" placeholder="密码" class="input_txt" id="pwd">
+    <!-- 		<div class="remember"><input type="checkbox" id="remember"> 记住我 </div> -->
+    <input type="button" value="登 录" class="input_sub">
+</form>
+
+</body>
+<script type="text/javascript" src="/static/js/jquery/jquery.min.js"></script>
+<script>
+    var button = document.getElementsByClassName('input_sub')[0];
+    button.onclick = function () {
+    	var username = $('#name').val();
+        var password = $('#pwd').val();
+        var data = {'username': username, 'password': password};
+        $.post('/login', data, function (result) {
+        	if(result['state'] == 'success'){
+        		redirectToHome();
+        	}else if(result['state'] == 'failure'){
+        		alert(result['msg'])
+        	}
+        })
+    };
+
+    function redirectToHome() {
+        window.location.href = '/index';
+    }
+
+</script>
+
+
+</html>

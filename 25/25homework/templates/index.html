@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AcFun弹幕视频网</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/static/css/b_home.css">
+</head>
+<body>
+  <div class="container" action="/login">
+   <!-- 判断user模板变量是否存在-->
+    {% if user and user['name'] %}
+        <!-- 存在即展示：欢迎你某某某-->
+    	<h3 class="welcome">欢迎你，{{ user['name'] }}</h3>
+	{% else %}
+        <!-- 不存在即展示：欢迎你，陌生人-->
+    	<h3 class="welcome">欢迎你，陌生人</h3>
+	{% endif %}
+  </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+.container{width:1348px;height:824px;background: url(/static/images/dmzj.png) no-repeat top center/cover;margin:auto;position: relative;}
+.c-tab{width:270px;height:40px;position: absolute;top:250px;left:75px;}
+.content{width:950px;height:275px;position: absolute;top:305px;left:75px;}
+.comic-item{width:150px;height:250px;float:left;margin-right:30px;}
+.comic-item img{width:150px;height:200px;}
+.comic-item p{height:50px;margin-top:-5px;line-height: 50px;font-size: 14px;color: #333;overflow: hidden;}
+.c-tab div{float:left;width: 112px;height: 25px;font-size: 24px;color: #666;cursor: pointer;}
+.c-tab .on{color: #1790e6;}

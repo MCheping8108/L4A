@@ -1,0 +1,60 @@
+import pymongo, os, json, datetime, random
+from bson import ObjectId
+
+ip = '127.0.0.1'
+port = 27017
+database = 'blog'
+
+client = pymongo.MongoClient(ip, port)
+db = None
+
+
+def get_db():
+    global db
+    if not db:
+        db = client[database]
+    return db
+
+
+db = get_db()
+
+data_path = './data'
+
+
+# 导入原始数据的方法
+def data_import():
+    for maindir, subdir, file_list in os.walk(data_path):
+        for file_name in file_list:
+            if file_name[file_name.rindex('.'):] == '.json':
+                coll = file_name[:file_name.rindex('.')]
+                coll_list = db.list_collection_names()
+                if coll in coll_list:
+                    continue
+                with open(data_path + '/' + file_name, encoding='utf-8') as file:
+                    str = file.read()
+                    if str is '' or str is None:
+                        continue
+                    else:
+                        data = []
+                        data.extend(json.loads(str))
+                        if coll == 'user':
+                            for d in data:
+                                d['_id'] = ObjectId(d['_id'])
+                        if coll == 'microblog':
+                            for d in data:
+                                d['user_id'] = ObjectId(d['user_id'])
+                                d['photos'] = d['photos'].split(',')
+                                d['create_time'] = randomtimes('2019-03-01', '2019-12-01', 1)
+                        if coll == 'game':
+                            for d in data:
+                                d['_id'] = ObjectId(d['_id'])
+                        if coll == 'props':
+                            for d in data:
+                                d['game_id'] = ObjectId(d['game_id'])
+                        db[coll].insert_many(data)
+
+
+def randomtimes(start, end, n, frmt="%Y-%m-%d"):
+    stime = datetime.datetime.strptime(start, frmt)
+    etime = datetime.datetime.strptime(end, frmt)
+    return [random.random() * (etime - stime) + stime for _ in range(n)][0]

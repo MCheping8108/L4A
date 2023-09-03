@@ -1,0 +1,40 @@
+﻿
+.chat {
+    display: block;
+    width: 40%;
+    height: 80px;
+    border-radius: 20px;
+    margin: auto;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    box-sizing: border-box;
+    padding-top: 20px;
+    margin-top: 100px;
+}
+
+#username {
+    padding-top: 5px;
+    background: #99e6e6;
+    top: 20%;
+    line-height: 80px;
+    outline: none;
+}
+
+#group {
+    background: #ffeb99;
+    top: 30%;
+}
+
+#ai:hover {
+    background: #5cd6d6;
+    cursor: pointer;
+}
+
+#group:hover {
+    background: #ffe166;
+    cursor: pointer;
+}
+

@@ -1,0 +1,28 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+ul,li{margin:0px;padding:0px;list-style: none;}
+.header{height:120px;background: url(/static/images/top.jpg);}
+.dh{height:42px;border-top: 1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;margin-left:auto;margin-right:auto;margin-bottom:10px;background-color:#aa0000;}
+.dh .nav{height:40px;background-color: #aa0000;margin-bottom: 2px;position:relative;z-index: 99;width:960px;margin:0 auto;}
+.dh .nav .tab{position: relative;display: block;float: left;cursor: pointer;text-decoration: none;}
+.dh .nav .tab .tablink{padding:1px 12px;line-height: 38px;display:block;z-index: 99;float:left;color:#fff;font-size: 14px;text-decoration: none;}
+.tab:hover{background-color:#fff;}
+.tab:hover .tablink{border:1px solid #333;height:38px;    font-size: 15px;text-decoration: none;color: #fff;background-color: #000;}
+.history{margin-left:auto;margin-right:auto;width:960px;margin-top:10px;font-family: '微软雅黑'}
+.history .introduce{float:left;width:960px;border:1px solid #e1e1e1;}
+.history .introduce .side-left{font-size: 14px;float:left;width:160px;margin:10px 0px 10px 10px;padding:0;background: #333;color:#999999;}
+.history .introduce .side-right{float:left;font-size: 14px;width:760px;margin-right: 20px;padding:10px 10px 10px 10px;line-height: 30px;color:#111111;z-index: 1;}
+.history .introduce .side-right span{float:left;width:760px;color:#000;}
+.history .introduce .side-right span h1{font-size: 22px;padding-left: 320px;margin:15px 0px;}
+.history .introduce .side-right .intro p{text-indent: 2em;}
+.history .introduce .side-right .content{width:760px;float:left;margin:0px 10px 10px 10px;}
+.history .introduce .side-right .content .title{background: #e7e6e1;height: 30px;font-size: 14px;color: #333;padding-left: 10px;margin-top:30px;}
+.history .introduce .side-right .person .picture{margin-left:0px;}
+.history .introduce .side-right .person .picture li{width: 100px;float: left;font-size: 12px;color: #666;padding: 10px 12px;list-style-type: none;line-height: 30px;margin: 8px 0px;box-sizing: content-box;}
+.history .introduce .side-right .person .picture li a{color: #000;text-decoration: none;width: 100px;float: left;text-align: center;font-size: 13px;}
+.history .introduce .side-right .event .event-list a{display:block;height:40px;line-height: 40px;font-size: 13px;padding-left: 10px;}
+.history .introduce .side-right .event .event-list a .event-date{width:140px;}
+.history .introduce .side-right .event .event-list a .event-title{width:600px;}
+.data-input{width:960px;height:80px;margin:auto;text-align: center;box-sizing: border-box;padding-top:20px;}
+.data-input select{width:200px;height:40px;margin:0px 10px;}
+.data-input input[type=button]{width:60px;height:40px;border: 1px solid #169af3;outline:none;font-size: 16px;font-weight: 600;border-radius: 2px;cursor: pointer;background-color: #169af3;color: #fff;}
+.data-input input[type=button]:hover{background-color: #158fe1;border: 1px solid #158fe1;}

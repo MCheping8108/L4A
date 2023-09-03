@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block history %}
+<div class="history">
+  <div class="introduce">
+    <div class="side-left">
+      <img class="info_person" src="{{person['photo']}}" width="160" height="200">
+    </div>
+    <div class="side-right">
+      <span><h1>{{person['name']}}</h1></span>
+      <div class="intro">
+        {% for i in person['intro'] %}
+        <p>{{i}}</p>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block script %}
+<script type="text/javascript" src="/static/js/dynasty_ajax.js"></script>
+{% endblock %}

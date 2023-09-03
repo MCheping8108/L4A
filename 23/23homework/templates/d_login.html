@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>会员登录</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/static/css/d_login.css">
+</head>
+<body>
+  <div class="login">
+    <form action="/login" method="post">
+    <input type="text" name="username" placeholder="请输入用户名或者邮箱" class="username">
+    <input type="password" name="password" placeholder="请输入密码" class="password">
+    <input type="submit" value="登录" id='btn'>
+    </form>
+  </div>
+</body>
+<script type="text/javascript" src="/static/js/jquery/jquery.min.js"></script>
+<!--<script type="text/javascript" src="/static/js/jquery/jquery.cookie.js"></script>-->
+<!--<script type="text/javascript">-->
+<!--  var button = document.getElementById('btn');-->
+<!--  button.onclick = function(){-->
+<!--    var username = document.getElementsByClassName('username')[0].value;-->
+<!--    var password = document.getElementsByClassName('password')[0].value;-->
+<!--    login(username,password);-->
+<!--  }-->
+
+<!--  /**-->
+<!--   * 登录方法-->
+<!--   * @param  {string} username 输入的用户名或邮箱-->
+<!--   * @param  {string} password 输入的密码-->
+<!--   * @return {[type]}          [description]-->
+<!--   */-->
+<!--  function login(username,password){-->
+<!--    var data = {'username':username,'password':password};-->
+<!--    $.post('/login',data,function(result){-->
+<!--     -->
+<!--      redirectToHome();-->
+<!--    });-->
+<!--  }-->
+
+<!--  /**-->
+<!--   * 跳转到主页-->
+<!--   */-->
+<!--  function redirectToHome(){-->
+<!--    window.location.href = '/dilidili';-->
+<!--  }-->
+<!--</script>-->
+</html>

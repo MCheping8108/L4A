@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{%block style%}
+<link rel="stylesheet" type="text/css" href="/static/css/sx.css">
+{% endblock %}
+
+{% block content %}
+<div class="content">
+    <div class="title">
+        <!--在下方完成代码：生肖图片photo-->
+        <span class="photo"><img src="/static/images/{{ }}"></span>
+        <span class="text">
+            <h4>
+                <!--在下方完成代码：生肖名字name-->
+
+            </h4>
+            <small>
+                <!--在下方完成代码：生肖年份years-->
+
+            </small>
+			<p>
+				<!--在下方完成代码：生肖天性nature-->
+
+			</p>
+		</span>
+    </div>
+    <div class="fortune">
+        <p>
+        <h4 class="p1">运程综述</h4>
+        <!--生肖运程综述overall-->
+        <span>{{fortune['overall']}}</span>
+        </p>
+    </div>
+</div>
+{% endblock%}

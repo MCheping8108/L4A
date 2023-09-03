@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>upload</title>
+    <link rel="stylesheet" href="../static/css/74/cs3.css">
+    <script type="text/javascript" src="/static/js/jquery/jquery.min.js"></script>
+    <script>
+        function check(){
+            inputs = $("[type='file']");
+            if(inputs.length == 0){
+                alert('请添加 type是file 的input元素');
+                return false;
+            }
+            if(inputs[0].name != 'my_file'){
+                alert('请添加type是file的input元素的name属性值设置为 my_file');
+                return false;
+            }
+            if (inputs[0].value == null || inputs[0].value == ''){
+                alert('请选择文件后再提交！');
+                return false;
+            }
+             if($('form')[0].method != 'post'){
+                alert('请将form元素的请求方法 method 设置为 post');
+                return false;
+            }
+        }
+
+    </script>
+</head>
+<body>
+<div>{{ data }}</div>
+<!-- 在下方写你的代码：在 form 表单中设置上传文件属性,请求方式为 post-->
+<form onsubmit="return check()"
+      action='/test03'>
+<!-- 使用 input 标签选择文件，设置 name 属性为 my_file-->
+
+    <input type='submit'>
+</form>
+
+
+</body>
+</html>

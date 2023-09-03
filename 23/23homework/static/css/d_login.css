@@ -1,0 +1,9 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+html,body{width:100%;height:100%;background-color:#f2f2f2;}
+input{border:none;outline:none;}
+body{padding-top:100px;}
+.login{width:1348px;height:518px;background: url(/static/images/dilidili/login.png) top center/cover;margin:auto;position:relative;}
+.login input[type=text],.login input[type=password]{width:400px;height:35px;padding: 0 10px 0 10px;color: #aaaaaa;line-height: 38px;position:absolute;outline:none;border: #d6d6d6 1px solid;}
+.login input[type=text]{top:100px;left:700px;}
+.login input[type=password]{top:170px;left:700px;}
+.login input[type=submit]{position:absolute;  top:250px;left:800px;background: #d33b6a;border: #b52853 1px solid;color: #fff;cursor: pointer;font-size: 1rem;width:120px;height:42px;outline: none;}

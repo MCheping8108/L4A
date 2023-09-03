@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>我的音乐歌单</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/static/css/layout.css">
+  <link rel="stylesheet" type="text/css" href="/static/layui/css/layui.css">
+
+  {% block stylesheet %}
+    
+  {% endblock %}
+
+</head>
+<body>
+  <div class="container">
+    {% block header %}
+
+    {% endblock %}
+    
+    {% block main %}
+
+    {% endblock %}
+  </div>
+  <audio class="audio" controls="controls" loop="loop" src="#"></audio>
+</body>
+<script type="text/javascript" src="/static/layui/layui.js"></script>
+<script type="text/javascript" src="/static/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="/static/js/music.js"></script>
+
+{% block script %}{% endblock %}
+</html>

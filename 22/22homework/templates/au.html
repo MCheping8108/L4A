@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>劲舞团</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/static/css/au.css">
+</head>
+<body>
+  <div class="container">
+    <div class="fuli"></div>
+    <div class="fuli-list">
+      <div class="fuli-item fuli01"></div>
+      <div class="fuli-item fuli02"></div>
+      <div class="fuli-item fuli03"></div>
+      <div class="fuli-item fuli04"></div>
+      <div class="fuli-item fuli05"></div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="/static/js/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+  shown = false
+  document.onmousewheel = function(e){
+    //滚轮滚动超过600px，能够看到联动福利
+    if(e.offsetY > 600){
+      //如果已经显示过，则不再显示
+      if(shown){
+      	return;
+      }
+      $.get('/gifts',function(result){
+        // 在下方写你的代码：调用showGifts方法,参数是gifts，实现将数据展示在页面上的效果
+
+      });
+    }
+  };
+
+  /**
+   * 展示联动福利的方法
+   * @param {Array} data 需要展示的数据
+   */
+  function showGifts(data){
+  	shown = true;
+    var list = document.getElementsByClassName('fuli-list')[0];
+    var fuli = document.getElementsByClassName('fuli-item');
+    list.style.display = "block";
+    for(var i = 0;i<data.length;i++){
+      var template = 
+        '<span>' + data[i]['number'] + '</span>'+
+        '<span>' + data[i]['title'] + '</span>'+
+        '<img src="/static/images/au/' + data[i]['image'] + '">'+
+        '<p>' + data[i]['content'] + '</p>';
+      fuli[i].innerHTML = template;
+    }
+  }
+</script>
+</html>

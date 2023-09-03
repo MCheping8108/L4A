@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>动漫之家</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/static/css/home.css">
+</head>
+<body> 
+  <div class="container">
+    <div class="c-tab">
+      <div data-category="1">冒险漫画</div>
+      <div data-category="2">搞笑漫画</div>
+    </div>
+    <div class="content">
+
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="/static/js/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+  var tab = document.querySelectorAll('.c-tab div');
+
+  window.onload = function(){
+    for(var i = 0;i<tab.length;i++){
+      tabClick(i,tab[i]);
+    }
+  }
+
+  /*
+   * @description 类别点击的方法
+   * @param index {Number} : 当前div的下标
+   * @param obj {Node} : 当前点击的div对象
+   */
+  function tabClick(index,obj){
+    obj.onclick = function(){
+      for(var i = 0;i<tab.length;i++){
+        tab[i].className = '';
+      }
+      this.className = "on";
+      var category = this.dataset.category;
+      getComit(category);
+    }
+  }
+
+  /*
+   * @description 获取漫画的方法
+   * @param category {Number} : 漫画的类别
+   */
+  function getComit(category){
+    $.get('/comic?category=' + category,function(result){
+        showComit(result['data']);
+    });
+  }
+
+  /*
+   * @description 展示漫画内容的方法
+   * @param data {Array} : 漫画内容的数据
+   */
+  function showComit(data){
+    var content = document.getElementsByClassName('content')[0];
+    var str = '';
+    for(var i = 0;i<data.length;i++){
+      var template = 
+        '<div class="comic-item">'+
+          '<img src="/static/images/' + data[i]['image'] + '">'+
+          '<p>' + data[i]['title'] + '</p>'+
+        '</div>';
+      str += template;
+    }
+    content.innerHTML = str;
+  }
+
+</script>
+</html>

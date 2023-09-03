@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>《部落冲突-皇室战争》</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/static/css/12/clash.css">
+</head>
+<body>
+<div class="container">
+    <div class="hot">
+        <!--请在下方写你的代码：使用模板if判断date-->
+        {% if hot['date'] %}
+            <!--展示日期-->
+            <p class="date">{{hot['date']}}</p>
+            <!--展示标题-->
+            {%else%}
+            <p  class="date">时间待定</p>
+            {% endif %}
+            <h2 class="title">{{hot['title']}}</h2>
+            <!--展示内容并转为全大写-->
+            <p class="content">{{hot['content'] | upper}}</p>
+    </div>
+</div>
+</body>
+</html>

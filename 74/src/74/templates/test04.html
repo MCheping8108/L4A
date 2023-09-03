@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>upload</title>
+    <link rel="stylesheet" href="../static/css/74/cs4.css">
+    <script type="text/javascript" src="/static/js/jquery/jquery.min.js"></script>
+    <script>
+        function check(){
+            inputs = $("[type='file']");
+            if (inputs[0].value == null || inputs[0].value == ''){
+                alert('请选择文件后再提交！');
+                return false;
+            }
+        }
+    </script>
+</head>
+<body>
+<div>{{ data }}</div>
+<form onsubmit="return check()"
+      action='/test04' method='post'
+      enctype='multipart/form-data'>
+    <input type='file' name='image'>
+    <input type='submit'>
+</form>
+</body>
+</html>

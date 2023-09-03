@@ -1,0 +1,17 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+.container{width:1348px;height:2906px;background: url(/static/images/au/au.png) no-repeat top center/cover;margin:auto;position: relative;}
+.fuli{width:520px;height:130px;background: url(/static/images/au/fuli.png);position: absolute;top:935px;left:50%;margin-left:-260px;}
+.fuli-list{width:1260px;height:726px;position: absolute;top:1050px;left:50%;margin-left:-630px;display: none;}
+.fuli-item{width:450px;height:320px;background: url(/static/images/au/fuli-bg.png) no-repeat top center/cover;position:absolute;}
+.fuli01{top:50px;left:20px;}
+.fuli02{top:50px;left:410px;}
+.fuli03{top:50px;left:800px;}
+.fuli04{top:400px;left:200px;}
+.fuli05{top:400px;left:600px;}
+.fuli-item span:first-child{font-size: 30px;margin-left: 77px;line-height: 26px;color: #fff;text-align: left;}
+.fuli-item span:nth-child(2){font-size: 34px;margin-left: 30px;line-height: 36px;vertical-align: top;color: #fff;text-align: left;}
+.fuli-item img{position: absolute;bottom: 80px;left: 50%;transform: translateX(-50%);margin-bottom: -42px!important;width: 177px;height: 229px;}
+.fuli-item p{position: absolute;left: 23px;bottom: 38px;z-index: 2;width: 331px;height: 58px;box-sizing: border-box;padding: 7px 15px;text-align: left;font-size: 14px;line-height: 20px;color: #fff;background-color: #a929ec;word-break: break-all;}
+.fuli02 img{width:296px;height:246px;}
+.fuli03 img{width:254px;height:245px;}
+.fuli04 img,.fuli05 img{width:238px;height:235px;}

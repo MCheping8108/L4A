@@ -1,0 +1,4 @@
+*{margin:0;padding:0;}
+.container{width:1348px;height: 5391px;background: url(/static/images/coc/coc.png) no-repeat top center/cover;margin:auto;position: relative;}
+.content{width:140px;height:40px;position: absolute;top:620px;left:330px;color: #eedea1;font-size: 22px;text-decoration: underline;cursor: pointer;}
+.introduce{width:460px;height:110px;position: absolute;top:620px;left:330px;color: #eedea1;font-size: 18px;line-height: 26px;box-sizing: border-box;display:none;}

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1348px;
+    height: 1623px;
+    background: url(/static/images/bns/bns.png) no-repeat top center/cover;
+    margin: auto;
+    position: relative;
+}
+
+#button {
+    width: 205px;
+    height: 51px;
+    position: absolute;
+    top: 1340px;
+    left: 570px;
+    background: url(/static/images/bns/sp_js.png) no-repeat;
+    background-position: 0 -513px;
+    cursor: pointer;
+}

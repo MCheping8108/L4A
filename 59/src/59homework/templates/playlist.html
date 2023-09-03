@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+
+{% block stylesheet %}
+<link rel="stylesheet" type="text/css" href="/static/css/index.css">
+<link rel="stylesheet" type="text/css" href="/static/css/ranking.css">
+<link rel="stylesheet" type="text/css" href="/static/css/playlist.css">
+{% endblock %}
+
+
+{% block main %}
+  <div class="main-con">
+    <div class="con-l">
+      <div class="cover">
+        <img src="/static/images/plist/{{play_list['img']}}">
+      </div>
+      <p class="intr">歌单简介</p>
+      <p class="intr-txt">{{play_list['info']}}</p>
+    </div>
+    <div class="con-r">
+      <div>
+        <span class="r-title">{{play_list['name']}}</span>
+      </div>
+      <div class="r-listout">
+        <div class="list-head">
+          <ul class="flex-c">
+            <li class="head-num">序号</li>
+            <li class="head-name">歌曲</li>
+            <li class="head-artist">歌手</li>
+            <li class="head-album">专辑</li>
+            <li class="head-time">时长</li>
+          </ul>
+        </div>
+        <ul class="rank-list">
+          {% for x in range(play_list['songs']|count) %}
+          <li class="song-item flex-c">
+            <div class="song-rank flex-c">
+              <div class="rank-num">
+                <span>{{x+1}}</span>
+              </div>
+              <div class="status"></div>
+              <img src="/static/images/songs/{{play_list['songs'][x]['pic']}}" class="cover">
+            </div>
+            <div class="song-name flex-c" onclick="javascript:audio('{{play_list['songs'][x]['url']}}');">
+              <span class="name">{{play_list['songs'][x]['name']}}</span>
+            </div>
+            <div class="song-artist">
+              <span>{{play_list['songs'][x]['artist']}}</span>
+            </div>
+            <div class="song-album">
+              <span>{{play_list['songs'][x]['album']}}</span>
+            </div>
+            <div class="song-time">
+              <span>{{play_list['songs'][x]['songTimeMinutes']}}</span>
+            </div>
+            <div class="song-opts flex-c"></div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+

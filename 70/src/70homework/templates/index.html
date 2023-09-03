@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block dh %}
+<div class="dh">
+  <ul class="nav">
+    {% for d in dynasties %}
+    <li class="tab"><a onclick="dynasty_ajax(this);" class="tablink">{{d['name']}}</a></li>
+    {% endfor %}
+    <li class="tab"><a href="/today" class="tablink">历史今日</a></li>
+  </ul>
+</div>
+{% endblock %}
+
+{% block history %}
+<div class="history">
+  <div class="introduce">
+    <div class="side-left">
+      <img src="/static/images/dynasty/{{dynasty['img']}}" width="160" height="290">
+    </div>
+    <div class="side-right">
+      <span><h1>{{dynasty['title']}}</h1></span>
+      <div class="intro">
+        {% for i in dynasty['intro'] %}
+        <p>{{i}}</p>
+        {% endfor %}
+      </div>
+      <div class="content person">
+        <div class="title">历史名人</div>
+        <div class="picture">
+          {% for p in persons %}
+          <li>
+            <a href="/info?id={{p['_id']}}" target="_blank"><img src="{{p['photo']}}" width="100" height="100"></a>
+            <a href="/info?id={{p['_id']}}" target="_blank">[{{p['name']}}]</a>
+          </li>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="content event">
+        <div class="title">历史事件</div>
+        <div class="event-list">
+          {% for event in event_list %}
+          <a target="_blank"><span class="event-date">{{event['date']}}</span><span class="event-title">{{event['title']}}</span></a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block script %}
+<script type="text/javascript" src="/static/js/dynasty_ajax.js"></script>
+{% endblock %}

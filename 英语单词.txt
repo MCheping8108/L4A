@@ -1,0 +1,13 @@
+block block block block block 块
+extends extends extends extends 继承
+information information information information information 信息
+version version version version version 版本
+item item item item item 元素
+trim trim trim trim trim 修剪
+capitalize capitalize capitalize capitalize capitalize 把首字母大写
+username username username username username 用户名
+password password password password password 密码
+login login login login login login 登录
+post post post post post 邮递
+register register register register register 注册
+redirect redirect redirect redirect redirect 重定向

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>勇者斗恶龙</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/static/css/wiki.css">
+</head>
+<body>
+  <div class="base">
+    <div class="current">
+      <ul>
+        <!--   判断news是否存在     -->
+        {% if news %}
+          <li>{{ news }}</li>
+        {% else %}
+          <li>暂无</li>
+        {% endif %}
+      </ul>
+    </div>
+    <div class="import">
+      <ul>
+        <!--   判断activity是否存在     -->
+        {% if activity %}
+          <li>  {{ activity }}</li>
+        {% else %}
+          <li>暂无</li>
+        {% endif %}
+
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

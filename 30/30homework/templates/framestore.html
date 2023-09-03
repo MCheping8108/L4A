@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Framestore</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/static/css/framestore.css">
+</head>
+<body>
+  <div class="header">
+    <div class='popup_video'>
+        <video autoplay loop muted playsinline id="myVideo" style="z-index:-1" width="100%" -webkit-playsinline="true" src="/static/imgs/framestore/marvel.mp4" type="video/mp4">
+        </video>
+        <div class="close"></div>
+    </div>
+  </div>
+  <div class="ad"></div>
+  <div class="work">
+    <div class="title">探索我们的工作</div>
+    <div class="articles">
+      
+    </div>
+  </div>
+  <div class="footer"></div>
+</body>
+<script type="text/javascript" src="/static/js/jquery/jquery.min.js"></script>
+<script type="text/javascript">
+  var title = document.getElementsByClassName('title')[0];
+
+  //探索我们的工作 点击事件
+  title.onclick = function(){
+    //发送ajax请求，访问 /articles 获取服务器数据
+    
+  }
+
+  /**
+   * 展示我们的工作内容
+   * @param  {Array} data  工作文章的内容，数组
+   */
+  function showWorks(data){
+    var articles = document.getElementsByClassName('articles')[0];
+    var str = "";
+    for(var i = 0;i<data.length;i++){
+      var template = 
+        '<div class="article">'+
+          '<img src="/static/imgs/framestore/' + data[i]['photo'] + '">'+
+          '<div class="detail">' + data[i]['detail'] + '</div>'+
+        '</div>';
+      str += template;
+    }
+    articles.innerHTML = str;
+  }
+</script>
+</html>
