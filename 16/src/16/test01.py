@@ -20,6 +20,10 @@ def login():
     username = request.form.get('username')
     password = request.form.get('password')
     # 请在下方写你的代码:当用户名密码正确，则重定向到首页
+    if username == 'xiaotong' and password == '123456':
+        return redirect('/lego/index')
+    else:
+        return redirect('/lego/login')
 
 
 web.run(host='127.0.0.1', port=8001)

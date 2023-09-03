@@ -36,6 +36,8 @@ def login():
         if user['password'] != password:
             return render_template('login.html', username=username, pass_msg='密码错误，请重试')
         # 请在下方写你的代码:当登录成功，则重定向到首页
+        if username == username and password == password:
+            return redirect('/')
 
         return render_template('index.html')
 
@@ -55,6 +57,7 @@ def register():
             user = {'id': len(users) + 1, 'username': username, 'password': password}
             users.append(user)
             # 请在下方写你的代码：当注册成功，则重定向到登录页
+            return redirect('/user/login')
 
             return render_template('login.html')
         else:
