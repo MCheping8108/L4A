@@ -11,3 +11,4 @@ login login login login login login 登录
 post post post post post 邮递
 register register register register register 注册
 redirect redirect redirect redirect redirect 重定向
+asynchronons asynchronons asynchronons asynchronons asynchronons 异步 异步 异步 异步 异步
