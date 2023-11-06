@@ -15,4 +15,6 @@ db.cartoon.insert_many([
 ])
 
 # 在下方写你的代码：查询出 “名侦探柯南”这条文档，并且不返回"_id"键
+result = db.cartoon.find_one({'name': '名侦探柯南'}, {'_id': 0})
+print(result)
 

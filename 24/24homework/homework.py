@@ -16,14 +16,16 @@ def login():
     else:
         response = jsonify({'state': 'success','msg':'登录成功'})
         # 请在下方写你的代码：设置cookie,键为auto_login, 值为yes
-
+        response.set_cookie('auto_login', 'yes')
     return response
 
 
 @web.route('/login', methods=['GET'])
 def login_page():
     # 请在下方写你的代码：获取cookie，如果为yes，则直接重定向到首页 /index
-
+    cookie = request.cookies.get('auto_login')
+    if cookie == 'yes':
+        return redirect('/index')
     
     return render_template('login.html')
 

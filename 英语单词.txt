@@ -11,4 +11,19 @@ login login login login login login 登录
 post post post post post 邮递
 register register register register register 注册
 redirect redirect redirect redirect redirect 重定向
-asynchronons asynchronons asynchronons asynchronons asynchronons 异步 异步 异步 异步 异步
+asynchronons asynchronons asynchronons asynchronons asynchronons 异步
+button button button button button 按钮
+hide hide hide hide hide 隐藏
+ensure ensure ensure ensure ensure 确保
+log log log log log 日志
+basic basic basic basic basic 基本的
+config config config config config 配置
+blueprint blueprint blueprint blueprint blueprint 蓝图
+module module module module module 模块
+database database database database database 数据库
+drop drop drop drop drop 丢弃
+collection collection collection collection collection 集合
+document document document document document 文档
+insert insert insert insert insert 插入
+find find find find find 查找
+

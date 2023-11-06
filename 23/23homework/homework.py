@@ -16,7 +16,9 @@ def home():
 @web.route('/login', methods=['GET'])
 def login_page():
     # 在下方写你的代码：获取cookie，判断cookie是否为yes
-    
+    cookie = request.cookies.get('auto_login')
+    if cookie == 'yes':
+        return redirect('/')
     
     return render_template('login.html')
 
@@ -29,7 +31,7 @@ def login():
     if username == 'xiaotong' and password == '123456':
         response = redirect('/')
         # 在下方写你的代码：设置cookie,键是auto_login, 值是yes
-        
+        response.set_cookie('auto_login', 'yes')
     
         return response
     else:

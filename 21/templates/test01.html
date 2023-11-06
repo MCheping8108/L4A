@@ -20,7 +20,9 @@
                 'telephone': telephone.value
             };
             //在下方写你的代码：发送post请求/user/register，传递数据data，并使用alert方法展示响应结果
-
+            $.post("/user/register", data, function (result) {
+                alert(result);
+            });
 
         }
 

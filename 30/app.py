@@ -31,6 +31,7 @@ def find(name):
 msgs = []
 
 
+
 @app.route('/register', methods=['GET'])
 def chat():
     return render_template('register.html')
@@ -109,6 +110,13 @@ def receive_msg():
 
 
 # 在下方写你的代码：设置get_list路由
+@app.route('/get_list', methods=['GET'])
+def get_msg():
+    last_time = request.args.get('last_time')
+    for msg in msgs:
+        if msg['time'] == int(last_time):
+            show_msgs = msgs[msgs.index(msg):len(msgs)]
+    return jsonify(show_msgs)
 
 
 if __name__ == "__main__":

@@ -79,6 +79,7 @@ def login():
     if request.method == 'GET':
         # 获取Cookie中保存的上次登录的用户名
         username = request.cookies.get('username', '')
+        
 
         # 获取session,如果存在，则重定向到首页
         if session.get('user'):
@@ -99,7 +100,8 @@ def login():
         # 登录成功后，把用户信息存储到session中
         session['user'] = user
         # 在下方写你的代码：日志打印登录信息
-
+        logging.info('info message')
+        logging.info('登录用户：'+str(user))
 
         # 获取redirect函数返回的Response对象   
         response = redirect('/')

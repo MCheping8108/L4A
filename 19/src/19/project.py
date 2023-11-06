@@ -38,8 +38,20 @@ photos = [
 
 # 在下方写你的代码：设置路由，返回首页
 
+@app.route('/')
+def home():
+    # 在下方写你的代码：传递模板变量给前端模板文件
+    return render_template('index.html', photos=photos)
+    # return render_template('index.html')
+
 
 # 在下方写你的代码：设置路由，返回登录页面
+
+@app.route('/login')
+def login():
+    # 在下方写你的代码：传递模板变量给前端模板文件
+    return render_template('login.html')
+
 
 
 app.run(host='127.0.0.1', port=8000)

@@ -8,6 +8,8 @@ function register_post() {
         'password': password
     };
     //在下方写你的代码：发送post请求/user/register，传递数据data，并展示响应结果
-
+    $.post("/user/register", data, function (result) {
+        $(".regist-username .error-msg").html(result);
+    });
 
 }

@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b9aca93-2af4-46be-b101-9d7edbd9d76e" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="6b9aca93-2af4-46be-b101-9d7edbd9d76e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../17/src/17/templates/fantacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/../17/src/17/templates/fantacy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17/src/17/templates/storm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../17/src/17/templates/storm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17/src/17homework/templates/coc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../17/src/17homework/templates/coc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18/src/18/templates/bns.html" beforeDir="false" afterPath="$PROJECT_DIR$/../18/src/18/templates/bns.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18/src/18/templates/test01.html" beforeDir="false" afterPath="$PROJECT_DIR$/../18/src/18/templates/test01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18/src/18homework/homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/../18/src/18homework/homework.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18/src/18homework/templates/callduty.html" beforeDir="false" afterPath="$PROJECT_DIR$/../18/src/18homework/templates/callduty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19/src/19/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../19/src/19/project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19/src/19/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../19/src/19/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20/src/20/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../20/src/20/project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/ajax/register_ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/ajax/register_ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/test01.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/test01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../英语单词.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../英语单词.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +28,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -32,6 +53,7 @@
     <option name="width" value="990" />
     <option name="height" value="1035" />
   </component>
+  <component name="ProjectId" id="2WZNIs8RXupsKNpJAa37gZjS8g6" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -51,26 +73,63 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/liuyi/Desktop/project/L4A/22"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="21_src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\liuyi\AppData\Local\Programs\Python\Python311\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="21_src" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\liuyi\AppData\Local\Programs\Python\Python311\python.exe" />
+      <option name="SDK_NAME" value="Python 3.11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="21_src" type="Python.FlaskServer" factoryName="Flask server">
       <module name="21_src" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
@@ -86,7 +145,14 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.test01" />
+      </list>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>

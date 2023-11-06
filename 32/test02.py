@@ -8,6 +8,9 @@ db = client['database32']
 
 
 # 在下方写你的代码：查询student集合中的所有文档
+result = db.student.find()
+student=list(result)
+print(student)
 
 
 

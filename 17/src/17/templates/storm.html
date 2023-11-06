@@ -18,7 +18,9 @@
 		var slice = document.getElementsByClassName('slice-up')[0];
 		more.onclick = function() {
 			// 请在下方写你的代码:发送ajax请求，获取响应展示在页面中
-
+			$.get('/teach', function(result) {
+				slice.innerHTML = result;
+			})
 		};
 	</script>
 </html>

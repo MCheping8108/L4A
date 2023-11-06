@@ -49,16 +49,12 @@ def register():
         password = request.form.get('password')
         # 判断用户名是否已存在
         user = find(username)
+        # 在下方写你的代码:使用jsonify返回状态信息和提示信息
         if user is not None:
-            # 在下方写你的代码：使用jsonify返回状态信息和提示信息
-            return '该用户名已被注册'
-
-        # 注册成功，保存在字典中
+            return jsonify({'status': 'failure', 'msg': '用户名已存在'})
         user = {'id': len(users) + 1, 'username': username, 'password': password}
         users.append(user)
-
-        # 在下方写你的代码:使用jsonify返回状态信息和提示信息
-        return redirect('/user/login')
+        return jsonify({'status': 'success', 'msg': '注册成功'})
 
 
 @app.route('/')

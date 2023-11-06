@@ -84,7 +84,17 @@ window.onload = function () {
     var name = document.getElementsByTagName("b")[0].innerText;
     var photo = document.getElementById('welcome').dataset.photo;
     user = {"name": name, "photo": photo};
-
+    setInterval(function () {
+        var last_time = getTime();
+        $.get('/get_list?last_time=' + last_time, function (result) {
+        show_new_list(result);
+    });
+    }, 1000);
+    
     // 在下方写你的代码：定时器，展示最新消息列表
-
+    // setInterval(function () {
+    // $.get("/msg/list?user_name=" + user['name'], function (result) {
+    //     show_new_list(result);
+    // })
+    // }, 2000);
 };

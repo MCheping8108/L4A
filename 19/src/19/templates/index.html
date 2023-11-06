@@ -25,18 +25,18 @@
 
         <div class="row">
             <!--   下方写你的代码：for循环遍历模板变量,并展示数据  -->
-                <!--
-                <div class="single-cat-item">
+            {% for photo in photos %}
+                 <div class="single-cat-item">
 
-                   <img src="/static/images/items/">
+                   <img src="/static/images/items/ {{ photos['cover'] }} ">
                     <div class="item-meta">
 
-                        <h4><a href=""></a></h4>
+                        <h4><a href=""> {{ photos['title'] }} </a></h4>
 
-                        <p></p>
+                        <p> {{ photos['content'] }} </p>
                     </div>
                 </div>
-                -->
+            {% endfor %}
             <!-- 结束for循环 -->
         </div>
 

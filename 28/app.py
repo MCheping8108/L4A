@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, redirect, jsonify, session
 import logging
 # 在下方写你的代码：从handler中导入user, microblog, quiz, game模块
+from handler import user, microblog, quiz, game
 
 
 # 创建Flask应用
@@ -181,6 +182,10 @@ def quiz():
     return render_template('quiz.html')
 
 # 在下方写你的代码：注册user、microblog、quiz、game蓝图
+app.register_blueprint(user.bp)
+app.register_blueprint(microblog.bp)
+app.register_blueprint(quiz.bp)
+app.register_blueprint(game.bp)
 
 
 # 设置404错误处理器

@@ -21,7 +21,10 @@ def index():
 @app.route('/test02', methods=['POST'])
 def test02():
     # 请在下方写你的代码：获取用户姓名和性别，使用日志logging打印用户信息
-
+    name = request.form.get('name')
+    gender = request.form.get('gender')
+    logging.info('user:%s, gender:%s' % (name, gender))
+    users.append({'name': name, 'gender': gender})
 
     return render_template('test02.html', data='报名成功')
 

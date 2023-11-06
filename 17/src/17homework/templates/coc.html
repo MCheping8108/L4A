@@ -15,11 +15,13 @@
 	</body>
 	<script type="text/javascript" src="/static/js/jquery/jquery.min.js"></script>
 	<script type="text/javascript">
-		var content = document.getElementsByClassName('content')[0];
-		var introduce = document.getElementsByClassName('introduce')[0];
+		var content = $('.content')[0];
+		var introduce = $('.introduce')[0];
 		content.onclick = function() {
 			// 请在下方写你的代码:发送ajax请求，调用showIntroduce()方法把获取响应展示在页面中
-
+			$.get('/introduce', function(result) {
+				showIntroduce(result);
+			})
 		};
 		/*
 		 游戏介绍页面展示

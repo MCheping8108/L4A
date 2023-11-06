@@ -71,12 +71,21 @@ def register():
             return jsonify({'status': 'failure', 'msg': '该用户名已被注册'})
 
         # 注册成功，保存在字典中（之前的逻辑）
-        user = {'id': len(users) + 1, 'username': username, 'password': password}
-        users.append(user)
+        # user = {'id': len(users) + 1, 'username': username, 'password': password}
+        # users.append(user)
 
         # 在下方写你的代码：构建用户信息字典
+        user = {
+            'username': username,
+            'password': password,
+            'head': '1.jpg',
+            'coins': 0
+        }
 
         # 将注册信息插入到集合user中
+        # db.create_collection('user')
+        db.user.insert_one(user)
+
 
         # 注册成功，重定向到登录页
         return jsonify({'status': 'success', 'msg': '恭喜注册成功'})

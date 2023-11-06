@@ -16,6 +16,11 @@
 		//请在下方写你的代码:获取id为button按钮元素
 
 		//button点击事件中发送ajax-get请求/receive,使用alert展示响应结果
-
+		var button = $('#button')[0];
+		button.onclick = function(){
+			$.get('/receive',function(result){
+				alert(result);
+			});
+		}
 	</script>
 </html>

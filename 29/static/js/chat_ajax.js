@@ -8,7 +8,11 @@ user = null;  //当前用户-自己
  */
 function sendMsgToServer(text) {
     //在下方写你的代码：构建消息对象，发送ajax-post请求，地址/group,并把消息对象发送给服务器
-
+    $.post("/group", data, function (result) {
+        if (result.code == 0) {
+            alert("发送成功");
+        }
+    })
 }
 
 

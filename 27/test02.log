@@ -1,0 +1,39 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-993-835
+INFO:root:ÓÃ»§:¶þ¹þ, ÐÔ±ð:ÄÐ
+INFO:werkzeug:127.0.0.1 - - [15/Oct/2023 10:48:16] "POST /test02 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Oct/2023 10:48:16] "GET /static/css/27/cs2.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Oct/2023 10:48:16] "GET /static/images/27/bg.jpg HTTP/1.1" 200 -
+INFO:root:ÓÃ»§:¶þ¹þ, ÐÔ±ð:ÄÐ
+INFO:werkzeug:127.0.0.1 - - [15/Oct/2023 10:48:21] "POST /test02 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Oct/2023 10:48:21] "[36mGET /static/css/27/cs2.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Oct/2023 10:48:21] "[36mGET /static/images/27/bg.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\liuyi\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\inspect.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-993-835
+INFO:werkzeug: * Detected change in 'C:\\Users\\liuyi\\Desktop\\project\\L4A\\27\\test02.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\liuyi\\Desktop\\project\\L4A\\27\\test02.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\liuyi\\Desktop\\project\\L4A\\27\\test02.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\liuyi\\Desktop\\project\\L4A\\27\\test02.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-993-835
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 309-993-835
+INFO:root:user:¶þ¹þ, gender:ÄÐ
+INFO:werkzeug:127.0.0.1 - - [15/Oct/2023 10:50:50] "POST /test02 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Oct/2023 10:50:50] "[36mGET /static/css/27/cs2.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Oct/2023 10:50:50] "[36mGET /static/images/27/bg.jpg HTTP/1.1[0m" 304 -
+INFO:root:user:¶þ¹þ, gender:ÄÐ
+INFO:werkzeug:127.0.0.1 - - [15/Oct/2023 10:50:54] "POST /test02 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Oct/2023 10:50:54] "[36mGET /static/css/27/cs2.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [15/Oct/2023 10:50:55] "[36mGET /static/images/27/bg.jpg HTTP/1.1[0m" 304 -

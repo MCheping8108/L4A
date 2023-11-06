@@ -26,14 +26,16 @@ def index():
 def login():
     if request.method == 'GET':
         # 在下方写你的代码：如果已经登录过，跳转到首页，否则返回登录页
-        
+        if 'user' in session:
+            return redirect('/')
         return render_template('login.html')
     else:
         name = request.form.get('name')
         pwd = request.form.get('password')
         user = {'name': name, 'pwd': pwd}
         # 在下方写你的代码：登录成功，使用session存储用户名和密码，并且传递用户名给index.html
-        
+        session['user'] = user
+        return redirect('/')
         return render_template('index.html',user='')
 
 

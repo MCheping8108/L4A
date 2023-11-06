@@ -21,9 +21,16 @@
 	<script type="text/javascript" src="/static/js/jquery/jquery.min.js"></script>
 	<script type="text/javascript">
 		// 请在下方写你的代码:获取class为map的元素
-
+		var map = $(".map")[0];
 		//在map点击事件中发送ajax请求/map，使用showMapInfo()方法展示响应内容
-
+		map.onclick = function() {
+			$.ajax({
+				url: "/map",
+				success: function(data) {
+					showMapInfo(data);
+				}
+			});
+		}
 
 		/*
 		 预留方法，地图信息展示

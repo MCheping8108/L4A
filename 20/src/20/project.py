@@ -50,16 +50,52 @@ def user_login():
 # 在下方写你的代码：设置登录路由(请求方式为POST)
 
 
+@app.route('/login', methods=['POST'])
+def login():
+    username = request.form.get('username')
+    password = request.form.get('password')
+    user = find(username)
+    if user is None:
+        return render_template('login.html', user_msg='用户名错误')
+    elif user['password'] != password:
+        return render_template('login.html', pass_msg='密码错误')
+    else:
+        return redirect('/')
+
+
+
 @app.route('/register', methods=['GET'])
 def user_register():
     """
     注册路由
     :return: 返回注册页面
     """
-    return render_template('register.html')
+    username = request.args.get('username')
+    password = request.args.get('password')
+    user = find(username)
+    if user is not None:
+        return render_template('register.html', user_msg='用户名已存在')
+
+    user = {'username': username, 'password': password}
+    users.append(user)
+    return redirect('/login')
 
 
 # 在下方写你的代码：注册的路由(请求方式为POST)
+
+
+@app.route('/register', methods=['POST'])
+def register():
+    username = request.form.get('username')
+    password = request.form.get('password')
+    user = find(username)
+    if user is not None:
+        return render_template('register.html', user_msg='用户名已存在')
+
+    user = {'username': username, 'password': password}
+    users.append(user)
+    return redirect('/login')
+
 
 
 app.run(host='127.0.0.1', port=8000)

@@ -9,6 +9,9 @@ def my_home():
 
 
 # 在下方写你的代码：设置404错误处理器
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html')
 
 
 if __name__ == '__main__':

@@ -19,7 +19,10 @@
 		var menu = document.getElementsByClassName('left-menu')[0];
 		menu.onclick = function() {
 			// 请在下方写你的代码:发送ajax请求，获取响应内容并展示
+			$.get('/story', function(result) {
+				content.innerHTML = result;
 
+			});
 		};
 	</script>
 </html>

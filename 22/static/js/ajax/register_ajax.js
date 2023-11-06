@@ -12,7 +12,11 @@ function register_post() {
         console.log(typeof (result));
         //在下方写你的代码
         $(".regist-username .error-msg").html(result);
-
+        if(result['status'] == 'success') {
+            window.location.href = '/user/login';
+        } else if(result['status'] == 'failure') {
+            $(".regist-username .error-msg").html(result['msg']);
+        }
 
     });
 }
