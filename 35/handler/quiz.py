@@ -106,7 +106,10 @@ def quiz_index():
 @bp.route('/quiz/question', methods=['GET'])
 def quiz_question():
     # 在下方写你的代码：获取题目等级，查询对应等级的题目，随机取出10条返回
-    return
+    level = request.args.get('level')
+    quiz_data = quiz_find(level=level)
+    questions = random.sample(quiz_data, 10)
+    return jsonify({'data': questions})
 
 
 @bp.route('/quiz/check', methods=['GET'])

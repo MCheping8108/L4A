@@ -5,6 +5,9 @@
  */
 function getQuestions(level,showQuestion) {
     //在下方写你的代码：发送ajax-get请求获取题目，并调用showQuestion函数展示题目
+    $.get('/quiz/questions?level=' + level, function (result) {
+        showQuestion(result['data']);
+    })
 
 }
 
@@ -16,7 +19,9 @@ function getQuestions(level,showQuestion) {
  */
 function checkQuestion(id, answer, showResult) {
     //在下方写你的代码：发送ajax-get请求获取答题结果，并调用showResult函数展示答题结果
-
+    $.get('/quiz/check?question_id=' + id + '&answer=' + answer, function (result) {
+        showResult(result['data']);
+    })
 }
 
 /**

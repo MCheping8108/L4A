@@ -128,6 +128,8 @@ def add_coins():
         redirect('/user/login')
     user = session['user']
     # 在下方写你的代码：获取请求参数coins，更新金币（增加金币的数量)，再更新session
+    coins = request.args.get('coins')
+    db.user.update_one({'username': user['username']}, {'$inc': {'coins': user['coins'] + int(coins)}})
 
     return 'success'
 

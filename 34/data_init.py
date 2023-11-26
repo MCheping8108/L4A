@@ -5,7 +5,7 @@ def data_init():
     client = pymongo.MongoClient('127.0.0.1', 27017)
     db = client['database34']
 
-    if len(db.list_collection_names()) is 0:
+    if len(db.list_collection_names()) == 0:
         students = [
             {"name": "盖茨", "math": 89, "grade": "4年级"},
             {"name": "特朗普", "math": 79, "grade": "4年级"},

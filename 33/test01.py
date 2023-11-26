@@ -5,6 +5,9 @@ balloon_init()
 
 if __name__ == '__main__':
     # 在下方写你的代码：删除指定位置的气球
+
+    # 删除红色气球
+    db.balloon.delete_many({'color': 'red'})
     
     # 遍历
     result = db.balloon.find()

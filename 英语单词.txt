@@ -26,4 +26,11 @@ collection collection collection collection collection 集合
 document document document document document 文档
 insert insert insert insert insert 插入
 find find find find find 查找
-
+delete delete delete delete delete 删除
+balloon balloon balloon balloon balloon 气球
+update update update update update 更新
+platfrom platfrom platfrom platfrom platfrom 平台
+question question question question question 问题
+answer answer answer answer answer answer 答案
+increase increase increase increase increase 增加
+coin coin coin coin coin 金币

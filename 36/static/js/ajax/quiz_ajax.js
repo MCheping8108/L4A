@@ -30,6 +30,11 @@ function checkQuestion(id, answer, showResult) {
  */
 function addCoins(coins,showTab){
     //在下方写你的代码：发送ajax-get请求，如果正确，调用showTab()显示答题结果
+    $.get('/quiz/addcoins?coins='+coins,function(result){
+        if(result == 'success'){
+            showTab();
+        }
+    })
 
 }
 

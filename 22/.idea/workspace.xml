@@ -5,24 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87380a1b-d90c-4b09-8ea0-9ad6edc2b43b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../17/src/17/templates/fantacy.html" beforeDir="false" afterPath="$PROJECT_DIR$/../17/src/17/templates/fantacy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17/src/17/templates/storm.html" beforeDir="false" afterPath="$PROJECT_DIR$/../17/src/17/templates/storm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17/src/17homework/templates/coc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../17/src/17homework/templates/coc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../18/src/18/templates/bns.html" beforeDir="false" afterPath="$PROJECT_DIR$/../18/src/18/templates/bns.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../18/src/18/templates/test01.html" beforeDir="false" afterPath="$PROJECT_DIR$/../18/src/18/templates/test01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../18/src/18homework/homework.py" beforeDir="false" afterPath="$PROJECT_DIR$/../18/src/18homework/homework.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../18/src/18homework/templates/callduty.html" beforeDir="false" afterPath="$PROJECT_DIR$/../18/src/18homework/templates/callduty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19/src/19/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../19/src/19/project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19/src/19/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../19/src/19/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20/src/20/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/../20/src/20/project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../21/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../21/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../21/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../21/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../21/static/js/ajax/register_ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/../21/static/js/ajax/register_ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../21/templates/test01.html" beforeDir="false" afterPath="$PROJECT_DIR$/../21/templates/test01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/ajax/register_ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/ajax/register_ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../33/app_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../33/app_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../33/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../33/test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../33/test04.py" beforeDir="false" afterPath="$PROJECT_DIR$/../33/test04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../34/data_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/../34/data_init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../34/handler/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/../34/handler/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../34/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../34/test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../34/test02.py" beforeDir="false" afterPath="$PROJECT_DIR$/../34/test02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../34/test04.py" beforeDir="false" afterPath="$PROJECT_DIR$/../34/test04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../35/handler/quiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/../35/handler/quiz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../35/static/js/ajax/quiz_ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/../35/static/js/ajax/quiz_ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../36/handler/quiz.py" beforeDir="false" afterPath="$PROJECT_DIR$/../36/handler/quiz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../36/static/js/ajax/quiz_ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/../36/static/js/ajax/quiz_ajax.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../36/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/../36/test01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../英语单词.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../英语单词.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,14 +112,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/liuyi/Desktop/project/L4A/22"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/liuyi/Desktop/project/L4A/22&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="22_src" />

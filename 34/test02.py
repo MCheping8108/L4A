@@ -6,6 +6,7 @@ for r in db.star.find():
 print('------------------')
 
 # 在下方写你的代码：更新肖战的粉丝数
+db.star.update_one({'name': '肖战'}, {'$set': {'fans': 0}})
 
 
 # 更新后查询

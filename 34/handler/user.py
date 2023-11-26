@@ -88,6 +88,10 @@ def head_update():
     user = session['user']
     head = request.args.get('head')
     # 在下方写你的代码：项目目标(更新用户头像)
+    user['head'] = head
+    session['user'] = user
+    db.user.update_one({'username': user['username']}, {'$set': {'head': head}})
+    return jsonify({'state': 'success'})
 
     # 更新session
     user['head'] = head
