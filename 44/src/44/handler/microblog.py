@@ -16,9 +16,11 @@ def microblog_find(page, count=5, type='paging'):
     if type == 'paging':
         # 在下方写你的代码：如果类型是分页，跳过前page页，每页显示count条，
         # 并按微博创建时间 create_time 降序排列
+        data = list(db.microblog.find().skip((page - 1) * count).limit(count).sort('create_time', -1))
         pass
     elif type == 'init':
         # 如果类型初始，获取前page页数据，并按微博创建时间 create_time 降序排列
+        data = db.microblog.find().skip((page - 1) * count).limit(page * count).sort('create_time', -1)
         pass
 
     return data

@@ -16,7 +16,7 @@ def get_date():
     today = request.args.get('today')
     tomorrow = request.args.get('tomorrow')
     # 请在下方写你的代码：使用逻辑或查询今天明天的数据
-    
+    data = list(db.calendar.find({'$or': [{'date': today}, {'date': tomorrow}]}))
     
     for d in data:
         d['_id'] = str(d['_id'])

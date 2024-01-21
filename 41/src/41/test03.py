@@ -18,6 +18,7 @@ if not db.scores.find_one():
         ]
     )
 # 在下方写你的代码：查询语文成绩大于90的学生
+print(list(db.scores.find({"语文": {"$gt":90}})))
 
 
 

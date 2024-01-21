@@ -17,6 +17,7 @@ def home():
 @app.route("/PM10", methods=['GET'])
 def PM10():
     # 在下方写你的代码：查询PM10大于85的城市
+    data = list(db.collection.find({"PM10": {"$gt": 85}}))
 
     # 预留
     for d in data:

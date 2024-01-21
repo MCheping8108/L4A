@@ -9,6 +9,7 @@ app.debug = True
 def show_data():
     data = list(
         # 在下方写你代码：在集合 players 中查看猛龙队员的薪资信息，按排名 ranking 升序排列，显示前5名球员
+        db.players.find({'position': '前锋','name': '猛龙队员'}).sort('ranking', 1).limit(5)
 
 
     )

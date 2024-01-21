@@ -20,3 +20,5 @@ db.flowers.insert_many(
 )
 id = '5d31a04c84722d28bf28add6'
 # 在下方写你的代码：将id转为ObjectId对象，然后在flowers集合中查询对应的文档
+data = db.flowers.find_one({'_id': ObjectId(id)})
+print(data)

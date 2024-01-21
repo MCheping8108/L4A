@@ -22,6 +22,8 @@ def player_info():
     total_steals = sum([r['steals'] for r in player_info])
     total_blocking = sum([r['blocking'] for r in player_info])
     # 在下方写你的代码：获取球员赛季数，赋值给count变量
+    count = 20
+    
 
 
     # 求平均分

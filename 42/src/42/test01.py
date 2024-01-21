@@ -12,8 +12,12 @@ def show_data():
     data = list(db.players.find())
 
     # 在下方写你的代码：统计 科比-布莱恩特 总参赛场次
+    # data = db.players.find({'player': '科比-布莱恩特'}).count()
 
     # 在下方写你的代码：统计 迈克尔-乔丹 总参赛场次
+    data = db.players.count_documents({'player': '迈克尔-乔丹'})
+    #data = db.players.estimated_document_count()
+    # data = db.players.distinct('team', {'player': '勒布朗-詹姆斯'})
 
     return render_template('table.html', data=data)
 

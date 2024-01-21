@@ -8,7 +8,7 @@ app.debug = True
 @app.route('/data', methods=['GET'])
 def show_data():
     # 在下方写你的代码：查看第2页的3条文档
-
+    data = db.video.find().skip((2-1)*3).limit(3)
    
     return render_template('table.html', data=data)
    

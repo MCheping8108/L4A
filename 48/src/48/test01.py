@@ -13,6 +13,8 @@ def index():
 @app.route('/data', methods=['GET'])
 def show_data():
     # 在下方写你的代码：计算三年来每个省份消费总额，并打印结果data
+    data = db.china.aggregate({"$group": {"_id": "$province", "sum_spending": {"$sum": "$spending"}}})
+    # data = list(db.china.aggregate(pipeline))
 
     return jsonify({'data': data})
 

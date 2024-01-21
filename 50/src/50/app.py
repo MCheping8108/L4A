@@ -22,17 +22,20 @@ def home():
 @app.route('/ranking', methods=['GET'])
 def get_ranking():
     # 在下方写你的代码:获取票房前10的电影
-    pass
+    movies = db.ranking.find({'boxOffice':{'$gt':20000000000,'$lt':30000000000}}).sort('boxOffice', -1).limit(10)
     # 将ObjectId对象转成字符串
+    for d in movies:
+        d['_id'] = str(d['_id'])
 
     # 返回 JSON 格式响应
+    return jsonify(movies)
 
 
 # 高分推荐总页数
 @app.route('/pages', methods=['GET'])
 def get_page():
     # 获取 score 集合中的电影数量
-    count = db.score.find().count()
+    count = db.score.count_documents({})
     # 计算总页数
     if count % 10 == 0:
         pages = count / 10

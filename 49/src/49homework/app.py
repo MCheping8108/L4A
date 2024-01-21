@@ -22,8 +22,10 @@ def home():
 @app.route('/pages', methods=['GET'])
 def get_page():
     # 获取集合score中所有电影的数量
-    count = db.score.find().count()
+    count = db.score.count_documents({})
     # 在下方写你的代码：求得分大于9分的分电影数量
+    movies2 = db.score.count_documents({'rate': {'$gt': 9}})
+
 
 
     # 计算总页数
@@ -44,6 +46,8 @@ def get_score():
     movies = list(db.score.find().sort('rate', -1
                                        ).skip((page - 1) * 10).limit(10))
     # 在下方写你的代码：获取评分大于9分降序排列的电影并分页展示，每页10条文档
+    move=db.score.find({'rate':{'$gt':9}}).sort('rate',-1).skip((page-1)*10).limit(10)
+
 
 
     # 将ObjectId对象转成字符串

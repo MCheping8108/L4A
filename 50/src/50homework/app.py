@@ -30,6 +30,7 @@ def get_ranking():
                   .sort('boxOffice', -1).limit(10))
 
     # 在下方写你的代码：获取票房大于30亿的动作片，并按票房降序排列，取出前10条
+    movies = list(db.ranking.find({'boxOffice': {'$gte': 30000000}, 'type': '动作'}).sort('boxOffice', -1).limit(10))
 
     for d in movies:
         d['_id'] = str(d['_id'])
@@ -52,7 +53,7 @@ def get_score():
 # 高分推荐总页数
 @app.route('/pages', methods=['GET'])
 def get_page():
-    count = db.score.find().count()
+    count = db.score.count_documents({})
     if count % 10 == 0:
         pages = count / 10
     else:

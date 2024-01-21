@@ -27,6 +27,8 @@ for s in db.sports.find():
 print('='*100) 
    
 # 在下方写你的代码：跳过sports集合中的前三条文档(将数据打印在控制台即可)
+data = list(db.sports.find().skip(3))
+print(data)
 
 
 

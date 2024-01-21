@@ -68,9 +68,17 @@ def microblog_load():
 @bp.route('/microblog/detail', methods=['GET'])
 def detail():
 	# 在下方写你的代码：根据 session 判断用户是否登录，如果没有登录，则重定向到登录页/user/login
+	if session.get('user') is None:
+		return redirect('/user/login')
 
 	# 获取微博 id
+	microblog_id = request.args.get('id')
 
 	# 根据微博 id 查询对应微博文档
+	microblog_data = db.microblog.find_one({'_id': ObjectId(microblog_id)})
+
+	# 将 ObjectId 类型值转成字符串
+	microblog_data['_id'] = str(microblog_data['_id'])
+	microblog_data['author']['_id'] = str(microblog_data['author']['_id'])
 
 	return render_template('detail.html')

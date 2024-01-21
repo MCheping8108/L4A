@@ -4,8 +4,8 @@ information information information information information 信息
 version version version version version 版本
 item item item item item 元素
 trim trim trim trim trim 修剪
-capitalize capitalize capitalize capitalize capitalize 把首字母大写
 username username username username username 用户名
+capitalize capitalize capitalize capitalize capitalize 把首字母大写
 password password password password password 密码
 login login login login login login 登录
 post post post post post 邮递
@@ -34,3 +34,17 @@ question question question question question 问题
 answer answer answer answer answer answer 答案
 increase increase increase increase increase 增加
 coin coin coin coin coin 金币
+temperature temperature temperature temperature temperature 温度
+mask mask mask mask mask 口罩
+great great great great great 大的
+less less less less less 小的
+equal equal equal equal equal 相等
+regex regex regex regex regex 正则表达式
+tags tags tags tags tags 标签
+index index index index index 索引
+unique unique unique unique unique 唯一的
+duplicate duplicate duplicate duplicate duplicate 
+weapon weapon weapon weapon weapon 武器
+skill skill skill skill skill 技能
+capital capital capital capital capital 首都
+population population population population population 人口

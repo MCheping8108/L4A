@@ -18,6 +18,7 @@ db.fruits.insert_many(
     ]
 )
 # 在下方写你的代码：查询采摘桃子数量小于25的学生
+print(list(db.fruits.find({"桃子": {"$lt": 25}})))
 
 
 

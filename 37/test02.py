@@ -8,7 +8,7 @@ web.debug = True
 @web.route('/data', methods=['GET'])
 def show_data():
     # 在下方写你的代码：查询灌篮高手中性别为男的人物
-
+    data = list(db.cartoons.find({'works': '灌篮高手' ,'gender': '男'}))
     return render_template('table.html', data=data)
 
 

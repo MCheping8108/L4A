@@ -30,6 +30,6 @@ def allPage():
 @menu.route('/getPages')
 def getPages():
     tag = request.args.get('tag')
-    counts = db.menu.find({'tags': {'$regex': tag}}).count()
+    counts = db.menu.count_documents({'tags': {'$regex': tag}})
     pages = math.ceil(counts / 6)
     return jsonify({'pages': pages, 'counts': counts})

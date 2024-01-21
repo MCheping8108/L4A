@@ -22,5 +22,6 @@ db = data_init()
 
 if __name__ == '__main__':
     # 在下方写你的代码：查询出sound集合中一共有多少个音响
+    print(list(db.sound.find({})).count())
 
     pass

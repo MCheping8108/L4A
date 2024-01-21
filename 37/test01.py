@@ -8,6 +8,7 @@ web.debug = True
 @web.route('/data', methods=['GET'])
 def show_data():
     # 在下方写你的代码：使用逻辑与查询体温正常并戴口罩的居民
+    data = list(db.residents.find({'temperature': '正常', 'mask': 'Yes'}))
     
     return render_template('table.html', data=data)
 

@@ -14,6 +14,8 @@ def data():
     page = int(request.args.get('page'))
     data = list(db.pets.find().skip((page - 1) * 6).limit(6))
     # 在下方写你的代码：把ObjectId对象转为字符串
+    for i in data:
+        i['_id'] = str(i['_id'])
 
     return jsonify(data)
 

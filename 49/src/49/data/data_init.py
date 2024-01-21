@@ -18,7 +18,7 @@ def data_local():
 
 				with open(data_path + '/' + file_name, encoding='utf-8') as file:
 					str = json.loads(file.read())
-					if str is '' or str is None:
+					if str == '' or str == None:
 						continue
 					else:
 						data = []

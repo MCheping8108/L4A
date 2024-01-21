@@ -12,6 +12,6 @@ def home():
 
 @pets.route('/getPages')
 def getPages():
-    counts = db.pets.find({}).count()
+    counts = db.pets.count_documents({})
     pages = math.ceil(counts / 6)
     return jsonify({'pages': pages, 'counts': counts})

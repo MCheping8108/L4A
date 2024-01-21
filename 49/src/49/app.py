@@ -22,22 +22,27 @@ def home():
 @app.route('/pages', methods=['GET'])
 def get_page():
     # 在下方写你的代码：获取 score 集合中的电影数量
-    pass
+    movie_count = db.score.count_documents({})
     # 计算总页数
-
+    total_pages = (movie_count + 9) // 10
     # 返回响应
+    return jsonify(total_pages)
 
 
 # 高分推荐
 @app.route('/score', methods=['GET'])
 def get_score():
     # 在下方写你的代码：获取页数page
-    pass
+    page = int(request.args.get('page'))
     # 按豆瓣评分降序排序并分页展示10条文档
+    movies = list(db.score.find().sort('rate', -1).skip((page - 1) * 10).limit(10))
 
     # 将ObjectId对象转成字符串
+    for d in movies:
+        d['_id'] = str(d['_id'])
 
     # 返回 JSON 格式响应
+    return jsonify(movies)
 
 
 app.run('127.0.0.1', 8000)

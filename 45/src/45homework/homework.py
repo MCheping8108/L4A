@@ -19,3 +19,5 @@ db.pictures.insert_many(
     ]
 )
 # 在下方写你的代码：找到标签tags包含‘水彩画’的所有文档并在控制台打印
+data = db.pictures.find({'tags': {'$regex': '水彩画'}})
+print(data)
